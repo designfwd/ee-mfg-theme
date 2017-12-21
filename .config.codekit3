@@ -260,13 +260,6 @@
 		"oAP": "\/partials\/content-general.php",
 		"oF": 0
 		},
-	"\/partials\/content-history.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/partials\/content-history.php",
-		"oF": 0
-		},
 	"\/partials\/content-intro.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -293,6 +286,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/partials\/content-supplementary.php",
+		"oF": 0
+		},
+	"\/partials\/content-timeline.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/partials\/content-timeline.php",
 		"oF": 0
 		},
 	"\/partials\/links-caseStudies.php": {
@@ -330,11 +330,32 @@
 		"oAP": "\/partials\/links-resources.php",
 		"oF": 0
 		},
-	"\/partials\/media-alternatingBlocks.php": {
+	"\/partials\/media-bannerGeneral.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/partials\/media-alternatingBlocks.php",
+		"oAP": "\/partials\/media-bannerGeneral.php",
+		"oF": 0
+		},
+	"\/partials\/media-bannerNews.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/partials\/media-bannerNews.php",
+		"oF": 0
+		},
+	"\/partials\/media-callToAction.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/partials\/media-callToAction.php",
+		"oF": 0
+		},
+	"\/partials\/media-capabilityBlocks.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/partials\/media-capabilityBlocks.php",
 		"oF": 0
 		},
 	"\/partials\/media-capabilityStack.php": {
@@ -342,13 +363,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/partials\/media-capabilityStack.php",
-		"oF": 0
-		},
-	"\/partials\/media-cta.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/partials\/media-cta.php",
 		"oF": 0
 		},
 	"\/partials\/media-featureGeneral.php": {
@@ -372,13 +386,6 @@
 		"oAP": "\/partials\/media-featureSolution.php",
 		"oF": 0
 		},
-	"\/partials\/media-generalBanner.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/partials\/media-generalBanner.php",
-		"oF": 0
-		},
 	"\/partials\/media-linkedBlock.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -391,13 +398,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/partials\/media-marketingBlocks.php",
-		"oF": 0
-		},
-	"\/partials\/media-newsBanner.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/partials\/media-newsBanner.php",
 		"oF": 0
 		},
 	"\/partials\/media-productGrid.php": {
