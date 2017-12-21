@@ -1,0 +1,25 @@
+// **
+// Text Content
+// **
+// blockquote {}
+// dd {}
+// div {}
+// dl {}
+// dt {}
+// figcaption {}
+// figure {}
+// hr {}
+// li {}
+// main {}
+// ol {}
+p {
+  color: $dark-purple;
+  font-family: $base-font-family;
+  font-weight: $font-regular;
+  margin-bottom: 1.3em;
+  orphans: 3;
+  widows: 3;
+}
+
+// pre {}
+// ul {}

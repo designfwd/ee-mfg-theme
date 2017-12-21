@@ -1,0 +1,42 @@
+// **
+// Content Sectioning
+// **
+// address {}
+// article {}
+// aside {}
+// footer {}
+h1,
+h2,
+h3,
+h4 {
+  color: $purple;
+  font-family: $base-font-family;
+  font-weight: $font-bold;
+  line-height: $header-line-height;
+  margin: 1.313rem 0 .4rem;
+}
+
+h1 {
+  font-size: modular-scale(4);
+  margin-top: 0;
+}
+
+h2 {
+  font-size: modular-scale(3);
+}
+
+h3 {
+  font-size: modular-scale(2);
+}
+
+h4 {
+  font-size: modular-scale(1);
+}
+
+// header {}
+// hgroup {}
+main {
+  background-image: url('../../images/dist/background-paper.jpg');
+}
+// nav {}
+// section {}

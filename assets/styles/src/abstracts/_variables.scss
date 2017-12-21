@@ -1,0 +1,87 @@
+// Font Imports
+@font-face {
+  font-family: 'IFCRAILROAD-Bold';
+  src: local('IFC RAILROAD Bold'), local('IFCRAILROAD-Bold'), url('../../fonts/Railroad/IFCRAILROAD-Bold.woff2') format('woff2'), url('../../fonts/Railroad/IFCRAILROAD-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'GloucesterMT-ExtraCondensed';
+  src: local('Gloucester MT ExtraCondensed'), local('GloucesterMT-ExtraCondensed'), url('../../fonts/Gloucester/GloucesterMT-ExtraCondensed.woff2') format('woff2'), url('../../fonts/Gloucester/GloucesterMT-ExtraCondensed.woff') format('woff');
+}
+
+// Typography
+$base-font-family: 'Domine',serif;
+$cta-font-family: 'GloucesterMT-ExtraCondensed',serif;
+$slide-font-family: 'IFCRAILROAD-Bold',serif;
+$sans-font-family: Helvetica, Arial, sans-serif;
+
+$font-regular: 400;
+$font-bold: 700;
+
+$base-line-height: 1.8;
+$header-line-height: 1.2;
+
+$base-font-size: 1.2em;
+$slide-font-size: 1.8rem;
+$slide-emphasis-size: 4rem;
+$modular-scale-base: $base-font-size;
+$modular-scale-ratio: $minor-third;
+
+$button-letter-spacing: .03125rem;
+
+// Alignment & Sizing
+$body-max-width: 1280px;
+$modal-max-width: 800px;
+
+// Colors
+$clear: rgba(0, 0, 0, 0);
+$black: rgba(0, 0, 0, 1);
+$black-to-clear: linear-gradient(180deg, $black, $clear);
+$clear-to-black: linear-gradient(0deg, $black, $clear);
+$grey: #aaa;
+$white: #fff;
+$white-clear: rgba(255,255,255,0);
+$red: #f00;
+$gold: #b17603;
+$green: #006400;
+$green--translucent: rgba(0,100,0,.15);
+$paper: #FEF8F0;
+$purple: #6e176c;
+$dark-purple: #361d2e;
+
+$copyright-text-shadow: 3px 3px 6px rgba(0, 0, 0, .5);
+$cta-text-shadow: 4.5px 4.5px 6px rgba(0, 0, 0, .65);
+$slide-text-shadow: 4px 4px 12px rgba(0, 0, 0, .85);
+
+// Buttons
+$border-white: 1px solid $white;
+$border-black: 1px solid $black;
+$border-black--thick: .08rem solid $black;
+$border-green: 1px solid $green;
+$border-green--thick: 2px solid $green;
+$border-grey: 1px solid $grey;
+$border-gold: 1px solid $gold;
+$border-none: 1px solid $clear;
+$border-radius-base: .25rem;
+
+// Animation
+$base-duration: 300ms;
+$base-timing: ease;
+
+$transition-background-color: background-color $base-duration $base-timing;
+$transition-border: border $base-duration $base-timing;
+$transition-color: color $base-duration $base-timing;
+$transition-fill: fill $base-duration $base-timing;
+$transition-left: left $base-duration $base-timing;
+$transition-opacity: opacity $base-duration $base-timing;
+$transition-top: top $base-duration $base-timing;
+$transition-transform: transform $base-duration $base-timing;
+$transition-width: width $base-duration $base-timing;
+
+$button-transitions: $transition-background-color, $transition-color, $transition-border;
+$svg-transitions: $transition-fill, $transition-opacity, $transition-transform;
+$text-transitions: $transition-background-color, $transition-color, $transition-opacity, $transition-transform;
+$positioning-transitions: $transition-left, $transition-top, $transition-width;
+
+
+// Alignment
+$button-padding-base: .25rem 1rem;
