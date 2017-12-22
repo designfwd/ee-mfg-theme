@@ -31,6 +31,9 @@
         <section id="featuredImage" class="newsLanding__featuredImage">
           <?php get_template_part('partials/media', 'featureNews'); ?>
         </section>
+        <section id="newsContent" class="newsLanding__newsContent">
+          <?php get_template_part('partials/content', 'news'); ?>
+        </section>
         <section id="newsSidebar" class="newsLanding__newsSidebar">
           <?php get_template_part('partials/sidebar', 'news'); ?>
         </section>
