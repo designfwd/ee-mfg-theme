@@ -2,9 +2,8 @@
 // Sectioning Root
 // **
 html {
-  background-color: $black;
   box-sizing: border-box;
-  font-size: $base-font-size;
+  font-family: $base-font-family;
 }
 
 *,
@@ -18,30 +17,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  font-family: $base-font-family;
-  font-weight: $font-bold;
-  line-height: $base-line-height;
-  margin: 0 auto;
-  max-width: $body-max-width;
-  min-height: 100vh;
-}
-
-.tester {
-  border: 1px dashed $red;
-  margin: .125rem .125rem 2rem;
-  padding: .5rem;
-  width: calc(100% - 1rem);
-
-
-  &.tester--black {
-    background-color: $black;
-  }
-
-  &.tester--grey {
-    background-color: $grey;
-  }
-
-  &.tester--white {
-    background-color: $white;
-  }
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }

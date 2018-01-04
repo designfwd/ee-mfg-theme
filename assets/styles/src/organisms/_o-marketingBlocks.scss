@@ -1,0 +1,30 @@
+.o-marketingBlocks {
+  background-color: $blue;
+  color: $light-blue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+
+  .o-marketingBlocks__description {
+    font-weight: $font-bold;
+    margin: 0;
+    padding: 2rem 10% 1rem;
+    text-align: center;
+    width: 80%;
+  }
+
+  .o-marketingBlocks__block {
+    align-items: center;
+    border-right: $border-grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 1rem;
+    width: 33%;
+
+    &:last-child {
+      border-right: none;
+    }
+  }
+}

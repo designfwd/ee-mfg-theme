@@ -19,8 +19,12 @@ function fwd_asset($type, $filename)
 function fwd_asset_loader()
 {
   // Styles
+  wp_register_style('rajdhani/font', '//fonts.googleapis.com/css?family=Rajdhani');
+  wp_enqueue_style('rajdhani/font');
+
   wp_register_style('mmenu/css', '//cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/6.1.8/jquery.mmenu.all.css');
   wp_enqueue_style('mmenu/css');
+
   wp_enqueue_style('main/css', fwd_asset('style', 'main.css'), false, null);
 
   // Scripts

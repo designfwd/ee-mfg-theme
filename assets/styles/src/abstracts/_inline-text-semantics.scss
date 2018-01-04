@@ -2,7 +2,6 @@
 // Inline-Text Semantics
 // **
 a {
-  color: $gold;
   text-decoration: none;
 }
 
@@ -17,9 +16,7 @@ a {
 // ins {}
 // mark {}
 // q {}
-small {
-  font-size: modular-scale(-1);
-}
+// small {}
 
 // span {}
 // strong {}

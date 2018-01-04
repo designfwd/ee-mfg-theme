@@ -5,7 +5,13 @@
 // datalist {}
 // fieldset {}
 // form {}
-// input {}
+input {
+  background: none;
+  border: $border-white;
+  font-family: $base-font-family;
+  font-size: 1.2rem;
+  font-weight: $font-bold;
+}
 // label {}
 // legend {}
 // meter {}

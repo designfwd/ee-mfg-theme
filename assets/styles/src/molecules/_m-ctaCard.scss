@@ -1,0 +1,38 @@
+.m-ctaCard {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 5%;
+  max-width: 460px;
+
+  .m-ctaCard__heading {
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .m-ctaCard__description {
+    padding: 1rem 0;
+  }
+
+  .m-ctaCard__row {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0;
+
+    .m-ctaCard__icon {
+      margin: 0 5% 0 0;
+      width: 10%;
+    }
+
+    .m-ctaCard__button {
+      background-color: $light-blue;
+      padding: .5rem 0;
+      width: 80%;
+
+      &.m-ctaCard__button--tour {
+        background-color: $yellow;
+      }
+    }
+  }
+}

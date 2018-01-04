@@ -1,0 +1,28 @@
+.o-copyrightContent {
+  align-items: center;
+  background-color: $grey;
+  border-top: $border-white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 0;
+  font-size: .8rem;
+
+  @media(min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .o-copyrightContent__legal {
+    padding-bottom: .5rem;
+
+    @media(min-width: 768px) {
+      padding: 0;
+    }
+  }
+
+  .o-copyrightContent__anchor {
+    color: $black;
+    padding: 0 .5rem;
+  }
+}

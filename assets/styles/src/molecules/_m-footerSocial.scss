@@ -1,0 +1,24 @@
+.m-footerSocial {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  @media(min-width: 768px) {
+    justify-content: flex-start;
+  }
+
+  .m-footerSocial__button {
+    min-width: 200px;
+    padding-left: 5%;
+    padding-right: 1rem;
+    width: 35%;
+
+    @media(min-width: 768px) {
+      padding-left: 0;
+    }
+  }
+
+  .m-footerSocial__icon {
+    padding: 0 .5rem;
+  }
+}

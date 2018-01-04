@@ -1,7 +1,9 @@
 <?php // Footer content that appears at the bottom of each page ?>
 <div class="o-footerContent">
 
-  <img class="o-footerContent__logo" src="http://via.placeholder.com/588x216?text=logo" />
+  <div class="o-footerContent__logoContainer">
+    <img class="o-footerContent__logo" src="http://via.placeholder.com/588x216?text=logo" />
+  </div>
   <div class="o-footerContent__body">
 
     <nav class="m-footerLinks">
@@ -29,9 +31,9 @@
 
     <div class="m-footerSocial">
       <div class="m-footerSocial__button">
-        <a class="a-dividedIcon" href="#">
+        <a class="a-dividedIcon a-dividedIcon--footer" href="#">
           <span class="a-dividedIcon__text">Contact Us</span>
-          <span class="a-divided Icon__icon">></span>
+          <span class="a-dividedIcon__icon">></span>
         </a>
       </div>
       <a class="m-footerSocial__icon" href="#">

@@ -1,22 +1,22 @@
 <?php // Navigation menu with links and search functionality ?>
 <nav class="o-navigationMenu">
-  <img class="o-navigationMenu__image" src="http://via.placeholder.com/588x216?text=logo" />
+  <img class="o-navigationMenu__image" src="http://via.placeholder.com/588x216/010066/ffffff?text=E+E+Manufacturing" />
   <div class="o-navigationMenu__topRow">
     <ul class="m-navigationRow m-navigationRow--upper">
       <li class="m-navigationRow__link">
-        <a class="m-navigationRow__anchor" href="#">Tour</a>
+        <a class="m-navigationRow__anchor m-navigationRow__anchor--upper" href="#">Tour</a>
       </li>
       <li class="m-navigationRow__link">
-        <a class="m-navigationRow__anchor" href="#">Request Quote</a>
+        <a class="m-navigationRow__anchor m-navigationRow__anchor--upper" href="#">Request Quote</a>
       </li>
       <li class="m-navigationRow__link">
-        <a class="m-navigationRow__anchor" href="#">Contact</a>
+        <a class="m-navigationRow__anchor m-navigationRow__anchor--upper" href="#">Contact</a>
       </li>
       <li class="m-navigationRow__link m-navigationRow__link--button">
-        <a class="m-navigationRow__anchor" href="#"><img class="m-navigationRow__image" src="http://via.placeholder.com/128x128?text=search" /></a>
+        <a class="m-navigationRow__anchor m-navigationRow__anchor--upper" href="#"><img class="m-navigationRow__image" src="http://via.placeholder.com/128x128/ff3300/ffffff?text=search" /></a>
       </li>
       <li class="m-navigationRow__link m-navigationRow__link--menuToggle">
-        <a class="m-navigationRow__anchor" href="#drawerMenu"><img class="m-navigationRow__image" src="http://via.placeholder.com/128x128?text=toggle" /></a>
+        <a class="m-navigationRow__anchor m-navigationRow__anchor--upper" href="#drawerMenu"><img class="m-navigationRow__image" src="http://via.placeholder.com/128x128?text=toggle" /></a>
       </li>
     </ul>
   </div>

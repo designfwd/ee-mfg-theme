@@ -1,0 +1,29 @@
+.o-navigationMenu {
+  display: flex;
+  background-color: $white;
+  flex-direction: column;
+  height: 110px;
+  margin: 0 2.5%;
+  position: fixed;
+  width: 95%;
+  z-index: 4;
+
+  .o-navigationMenu__image {
+    position: absolute;
+    height: 100%;
+  }
+
+  .o-navigationMenu__topRow,
+  .o-navigationMenu__bottomRow {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  .o-navigationMenu__topRow {
+    background-color: $grey;
+  }
+}

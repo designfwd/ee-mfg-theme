@@ -1,0 +1,33 @@
+.o-footerLinks {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 95%;
+
+  @media(min-width: 800px){
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .o-footerLinks__block {
+    padding-top: 1rem;
+    width: 100%;
+
+    @media(min-width: 800px) {
+      margin-right: 1rem;
+      width: 33%;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    &.o-footerLinks__block--newsletter {
+      align-items: center;
+      background-color: $red;
+      display: flex;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+  }
+}

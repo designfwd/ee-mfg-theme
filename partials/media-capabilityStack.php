@@ -10,53 +10,53 @@
 
   <div class="o-capabilityStack__stack">
 
-    <div class="m-capabilityRow">
+    <a class="m-capabilityRow" href="#">
       <img class="m-capabilityRow__image" src="http://via.placeholder.com/1591x741?text=capability" />
-      <div class="a-rowLabel m-capabilityRow__label">
+      <div class="m-capabilityRow__label a-rowLabel">
         <h3 class="a-rowLabel__title">
-          Tooling&amp; Stamping
+          Tooling &amp; Stamping
         </h3>
-        <svg class="a-rowLabel__flag">
+        <svg class="a-rowLabel__flag" viewBox="0 0 64 64">
           <path fill="#FF0000" d="M 0,0 L 0,64 L 64,64" />
         </svg>
       </div>
-    </div>
+    </a>
 
-    <div class="m-capabilityRow">
+    <a class="m-capabilityRow" href="#">
       <img class="m-capabilityRow__image" src="http://via.placeholder.com/1591x741?text=capability" />
-      <div class="a-rowLabel m-capabilityRow__label">
+      <div class="m-capabilityRow__label a-rowLabel">
         <h3 class="a-rowLabel__title">
           Welded Component &amp; Complete System
         </h3>
-        <svg class="a-rowLabel__flag">
+        <svg class="a-rowLabel__flag" viewBox="0 0 64 64">
           <path fill="#FF0000" d="M 0,0 L 0,64 L 64,64" />
         </svg>
       </div>
-    </div>
+    </a>
 
-    <div class="m-capabilityRow">
+    <a class="m-capabilityRow" href="#">
       <img class="m-capabilityRow__image" src="http://via.placeholder.com/1591x741?text=capability" />
-      <div class="a-rowLabel m-capabilityRow__label">
+      <div class="m-capabilityRow__label a-rowLabel">
         <h3 class="a-rowLabel__title">
           Roll Forming
         </h3>
-        <svg class="a-rowLabel__flag">
+        <svg class="a-rowLabel__flag" viewBox="0 0 64 64">
           <path fill="#FF0000" d="M 0,0 L 0,64 L 64,64" />
         </svg>
       </div>
-    </div>
+    </a>
 
-    <div class="m-capabilityRow">
+    <a class="m-capabilityRow" href="#">
       <img class="m-capabilityRow__image" src="http://via.placeholder.com/1591x741?text=capability" />
-      <div class="a-rowLabel m-capabilityRow__label">
+      <div class="m-capabilityRow__label a-rowLabel">
         <h3 class="a-rowLabel__title">
           Fastening
         </h3>
-        <svg class="a-rowLabel__flag">
+        <svg class="a-rowLabel__flag" viewBox="0 0 64 64">
           <path fill="#FF0000" d="M 0,0 L 0,64 L 64,64" />
         </svg>
       </div>
-    </div>
+    </a>
 
   </div>
 </div>
