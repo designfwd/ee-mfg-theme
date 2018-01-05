@@ -1,0 +1,52 @@
+.m-capabilityBlock {
+  align-items: center;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  width: 100%;
+
+  &.m-capabilityBlock--reverse {
+    flex-direction: column;
+  }
+
+  @media(min-width: 640px) {
+    flex-direction: row;
+
+    &.m-capabilityBlock--reverse {
+      flex-direction: row;
+    }
+  }
+
+  .m-capabilityBlock__description {
+    margin: 2rem;
+  }
+
+  .m-capabilityBlock__mediaBlock,
+  .m-capabilityBlock__mediaBlock--reverse {
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    .m-capabilityBlock__image {
+      position: relative;
+      width: calc(100% - 2.4rem);
+      z-index: 1;
+    }
+
+    .m-capabilityBlock__label {
+      background-color: $black-80;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      left: 20%;
+      top: 50%;
+      width: 80%;
+      z-index: 2;
+
+      &.m-capabilityBlock__label--reverse {
+        left: 0;
+      }
+    }
+  }
+}
