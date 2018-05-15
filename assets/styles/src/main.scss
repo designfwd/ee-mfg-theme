@@ -35,10 +35,13 @@
 
 
 // Organisms
-@import './organisms/o-capabilityBlocks.scss';
+@import './organisms/o-bodyContent.scss';
 @import './organisms/o-callToAction.scss';
+@import './organisms/o-capabilityBlocks.scss';
+@import './organisms/o-categoryLinks.scss';
 @import './organisms/o-copyrightContent.scss';
 @import './organisms/o-capabilityStack.scss';
+@import './organisms/o-featuredImage.scss';
 @import './organisms/o-featureSlider.scss';
 @import './organisms/o-footerContent.scss';
 @import './organisms/o-footerLinks.scss';
@@ -46,10 +49,12 @@
 @import './organisms/o-introContent.scss';
 @import './organisms/o-marketingBlocks.scss';
 @import './organisms/o-navigationMenu.scss';
+@import './organisms/o-pageBanner.scss';
 @import './organisms/o-supplementaryContent.scss';
 
 
 // Pages
 @import './pages/categoryContact.scss';
 @import './pages/categoryLanding.scss';
+@import './pages/generalLanding.scss';
 @import './pages/homepage.scss';
