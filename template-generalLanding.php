@@ -24,7 +24,7 @@
         </section>
       </header>
 
-      <main id="main">
+      <main id="main" class="generalLanding__main">
         <section id="introContent" class="generalLanding__intro">
           <?php get_template_part('partials/content', 'intro'); ?>
         </section>
