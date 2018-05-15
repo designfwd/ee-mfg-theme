@@ -7,7 +7,7 @@
 		"uuidString": "3ADD80FD-E843-4BE1-B01B-A17F092F0F9B"
 		}
 	],
-"creatorBuild": "26148",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitattributes": {
 		"cB": 0,
@@ -359,6 +359,19 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/assets\/styles\/src\/organisms\/_o-bodyContent.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/styles\/src\/dist\/_o-bodyContent.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/assets\/styles\/src\/organisms\/_o-callToAction.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -398,6 +411,19 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/assets\/styles\/src\/organisms\/_o-categoryLinks.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/styles\/src\/dist\/_o-categoryLinks.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/assets\/styles\/src\/organisms\/_o-copyrightContent.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -407,6 +433,19 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/assets\/styles\/src\/dist\/_o-copyrightContent.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/styles\/src\/organisms\/_o-featuredImage.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/styles\/src\/dist\/_o-featuredImage.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -502,6 +541,19 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/assets\/styles\/src\/organisms\/_o-pageBanner.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/styles\/src\/dist\/_o-pageBanner.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/assets\/styles\/src\/organisms\/_o-supplementaryContent.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -537,6 +589,19 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/assets\/styles\/src\/dist\/_categoryLanding.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/styles\/src\/pages\/_generalLanding.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/styles\/src\/dist\/_generalLanding.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -959,7 +1024,8 @@
 	"creationDate": 525117627,
 	"displayValue": "E&E Manufacturing Theme",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "brackets_orange"
+	"iconImageName": "brackets_orange",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -967,6 +1033,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -1530,6 +1597,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
@@ -2757,6 +2828,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 2,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
