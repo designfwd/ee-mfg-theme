@@ -82,7 +82,8 @@
     "hoek": "^5.0.3",
     "jquery": "^3.3.1",
     "moment": "^2.19.1",
-    "node-sass": "^4.5.3"
+    "node-sass": "^4.5.3",
+    "uglify-js": "^3.3.25"
   },
   "dependencies": {
     "bourbon": "^4.3.4",
