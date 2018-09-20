@@ -57,3 +57,30 @@ typings/
 # dotenv environment variables file
 .env
 
+# system ds_store files
+.DS_Store
+
+# WP Files
+wp-config.php
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/mu-plugins/
+wp-content/wp-cache-config.php
+wp-content/plugins/hello.php
+
+# HTAccess
+.htaccess
+
+# Composer vendor folder
+/vendor/
+
+# Dist folders
+resources/fonts/dist/
+resources/images/dist/
+resources/scripts/dist/
+resources/styles/dist/
