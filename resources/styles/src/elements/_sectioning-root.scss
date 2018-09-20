@@ -1,0 +1,28 @@
+/**
+ * Sectioning Root
+ */
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: $base-font-family;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 100%;
+}
+
+// ::selection {}

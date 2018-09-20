@@ -8,7 +8,7 @@
         do_action('get_header');
 
         include(
-          locate_template('./page-templates/patterns/navigation/primary.php')
+          locate_template('./page-templates/layouts/navigation/menu.php')
         );
       ?>
     </header>

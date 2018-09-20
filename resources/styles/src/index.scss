@@ -1,0 +1,150 @@
+@charset 'utf-8';
+
+/**
+ * Vendor
+ * Third-party styles, functions, and mixins
+ */
+// Bourbon
+@import '~bourbon/core/bourbon';
+
+// Normalize SCSS
+@import '~normalize-scss/sass/normalize';
+@include normalize();
+
+
+/**
+ * Tools
+ * Globally accessible functions, mixins, and placeholders
+ */
+
+
+/**
+ * Functions
+ */
+// Assets helper functions
+@import './tools/functions/asset-helper';
+
+// Black-based color generator
+@import './tools/functions/black';
+
+// Mathematical power function
+@import './tools/functions/power';
+
+// Pixel-to-rem converter
+@import './tools/functions/px-to-rem';
+
+// Strip a value of its unit
+@import './tools/functions/unit-stripper';
+
+
+/**
+ * Placeholders
+ */
+// Input resets
+@import './tools/placeholders/input-reset';
+// List style resets
+@import './tools/placeholders/list-reset';
+
+// Transparent overlay
+@import './tools/placeholders/overlay';
+
+// Preloader
+@import './tools/placeholders/preload';
+
+
+/**
+ * Mixins
+ */
+// Font loader
+@import './tools/mixins/font';
+// Headers
+@import './tools/mixins/headers';
+
+
+/**
+ * Settings
+ * Definitions and variables used throughout the theme. Colors, typography, etc.
+ */
+// Animation-related values
+@import './settings/animation';
+// Button-related values
+@import './settings/buttons';
+// Colors
+@import './settings/colors';
+// Fonts
+@import './settings/fonts';
+
+
+/**
+ * Elements
+ * Styles applied to specific HTML elements
+ */
+@import './elements/content-sectioning';
+@import './elements/forms';
+@import './elements/image-multimedia';
+@import './elements/inline-text-semantics';
+@import './elements/sectioning-root';
+@import './elements/table-content';
+@import './elements/text-content';
+
+
+/**
+ * Components
+ * Class- and ID-specific styles
+ */
+
+// Atoms
+@import './components/atoms/a-blockLabel';
+@import './components/atoms/a-dividedIcon';
+@import './components/atoms/a-rowLabel';
+
+
+// Molecules
+@import './components/molecules/m-capabilityBlock';
+@import './components/molecules/m-capabilityRow';
+@import './components/molecules/m-ctaCard';
+@import './components/molecules/m-footerContact';
+@import './components/molecules/m-footerLink';
+@import './components/molecules/m-footerLinks';
+@import './components/molecules/m-footerSocial';
+@import './components/molecules/m-marketingBlock';
+@import './components/molecules/m-navigationRow';
+
+
+// Organisms
+@import './components/organisms/o-bodyContent';
+@import './components/organisms/o-callToAction';
+@import './components/organisms/o-capabilityBlocks';
+@import './components/organisms/o-categoryLinks';
+@import './components/organisms/o-copyrightContent';
+@import './components/organisms/o-capabilityStack';
+@import './components/organisms/o-featuredImage';
+@import './components/organisms/o-featureSlider';
+@import './components/organisms/o-footerContent';
+@import './components/organisms/o-footerLinks';
+@import './components/organisms/o-industrySlider';
+@import './components/organisms/o-introContent';
+@import './components/organisms/o-marketingBlocks';
+@import './components/organisms/o-navigationMenu';
+@import './components/organisms/o-pageBanner';
+@import './components/organisms/o-supplementaryContent';
+
+
+// Pages
+@import './components/pages/categoryContact';
+@import './components/pages/categoryLanding';
+@import './components/pages/generalLanding';
+@import './components/pages/homepage';
+
+
+/**
+ * Vendor-specific overrides and settings
+ */
+// Dialog polyfill
+@import './vendor/dialog-polyfill';
+// Gravity forms
+@import './vendor/gravity-forms';
+// Lazysizes and its addons
+@import './vendor/lazysizes';
+// WordPress editor styles
+@import './vendor/wp-core';

@@ -1,1 +1,1 @@
-# ee-mfg-theme
+# fwd-boilerplate-theme
