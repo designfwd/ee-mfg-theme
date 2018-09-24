@@ -20,6 +20,7 @@
 
       <main id="main">
         <section id="introContent" class="categoryLanding__intro">
+          <h1>Howdy</h1>
           <?php get_partial('content', 'intro'); ?>
         </section>
         <section id="capabilityBlocks" class="categoryLanding__capabilityBlocks">
