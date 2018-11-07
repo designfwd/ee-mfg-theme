@@ -1,5 +1,6 @@
 <?php // Navigation menu with links and search functionality ?>
 <nav class="o-navigationMenu">
+<<<<<<< HEAD
   <img class="o-navigationMenu__image" src="http://via.placeholder.com/588x216/010066/ffffff?text=E+E+Manufacturing" />
   <div class="o-navigationMenu__topRow">
     <ul class="m-navigationRow m-navigationRow--upper">
@@ -45,6 +46,28 @@
 </nav>
 
 <nav id="drawerMenu" class="o-drawerMenu">
+=======
+  <img class="o-navigationMenu__image" src="http://via.placeholder.com/588x216/010066/ffffff?text=E+E+Manufacturing" />  
+  <?php
+    
+    wp_nav_menu( array(
+      'container'       => 'div',
+      'container_class' => 'o-navigationMenu__topRow',
+      'menu_class'      => 'm-navigationRow m-navigationRow--upper',    
+      'theme_location' => 'top_nav'
+    ));
+
+    wp_nav_menu( array(
+      'container'       => 'div',
+      'container_class' => 'o-navigationMenu__bottomRow',
+      'menu_class'      => 'm-navigationRow',    
+      'theme_location' => 'primary_nav'
+    ));    
+  ?>  
+</nav>
+
+<!-- <nav id="drawerMenu" class="o-drawerMenu">
+>>>>>>> saji
   <ul class="o-drawerMenu__list">
     <li class="o-drawerMenu__item">
       <a class="o-drawerMenu__anchor" href="#">Tour</a>
@@ -55,7 +78,11 @@
     <li class="o-drawerMenu__item">
       <a class="o-drawerMenu__anchor" href="#">Contact</a>
     </li>
+<<<<<<< HEAD
     <!-- Use https://developer.wordpress.org/reference/functions/wp_get_nav_menu_items/ to get menu items -->
+=======
+   Use https://developer.wordpress.org/reference/functions/wp_get_nav_menu_items/ to get menu items 
+>>>>>>> saji
     <li class="o-drawerMenu__item">
       <a class="o-drawerMenu__anchor" href="#">Solutions</a>
     </li>
@@ -75,4 +102,8 @@
       <a class="o-drawerMenu__anchor" href="#">Community</a>
     </li>
   </ul>
+<<<<<<< HEAD
 </nav>
+=======
+</nav> -->
+>>>>>>> saji
