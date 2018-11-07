@@ -1,0 +1,11 @@
+.o-pageBanner {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 8rem;
+  width: 100%;
+
+  .o-pageBanner__image {
+    height: 95%;
+    width: 95%;
+  }
+}

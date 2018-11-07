@@ -1,0 +1,31 @@
+.o-capabilityStack {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  .o-capabilityStack__headline {
+    font-size: 3rem;
+    margin: 0;
+    padding: 6rem 1rem 0;
+    line-height: 1;
+    text-align: right;
+    text-transform: uppercase;
+    width: 50%;
+  }
+
+  .o-capabilityStack__topDecoration {
+    height: 3rem;
+    margin: 4rem 2rem 0 0;
+  }
+
+  .o-capabilityStack__description {
+    text-align: right;
+    margin-left: 4rem;
+    width: 46%;
+  }
+
+  .o-capabilityStack__stack {
+    padding-top: 3rem;
+    width: 100%;
+  }
+}

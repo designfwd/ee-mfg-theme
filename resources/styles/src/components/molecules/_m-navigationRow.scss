@@ -1,0 +1,47 @@
+.m-navigationRow {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  list-style-type: none;
+
+  .m-navigationRow__link {
+    display: none;
+    height: 100%;
+    padding: 0 .65rem;
+
+    @media(min-width: 768px) {
+      display: flex;
+    }
+
+    &.m-navigationRow__link--button,
+    &.m-navigationRow__link--menuToggle {
+      padding-right: 0;
+    }
+
+    &.m-navigationRow__link--menuToggle {
+      display: block;
+
+      @media(min-width: 768px) {
+        display: none;
+      }
+    }
+  }
+
+  .m-navigationRow__anchor {
+    align-self: center;
+    color: $black;
+    font-size: .7rem;
+    font-weight: $font-bold;
+    letter-spacing: .05rem;
+    text-transform: uppercase;
+
+    &.m-navigationRow__anchor--upper {
+      color: $light-blue;
+    }
+
+    .m-navigationRow__image {
+      height: 55px;
+      display: block;
+    }
+  }
+}

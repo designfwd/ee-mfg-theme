@@ -1,0 +1,20 @@
+.m-capabilityRow {
+  position: relative;
+  width: 100%;
+
+  .m-capabilityRow__image {
+    position: relative;
+    max-height: 320px;
+    width: 95%;
+    z-index: 1;
+  }
+
+  .m-capabilityRow__label {
+    background-color: $black-80;
+    bottom: calc(100% + 2rem);
+    left: 55%;
+    position: absolute;
+    width: 50%;
+    z-index: 2;
+  }
+}

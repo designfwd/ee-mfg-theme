@@ -1,0 +1,30 @@
+.a-blockLabel {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+
+  &.a-blockLabel--reverse {
+    flex-direction: row-reverse;
+  }
+
+  .a-blockLabel__title {
+    color: $white;
+    text-transform: uppercase;
+    width: 80%;
+  }
+
+  .a-blockLabel__flag {
+    position: absolute;
+    left: calc(100% - 1rem);
+    top: 0;
+    width: 1rem;
+    z-index: 2;
+
+    &.a-blockLabel__flag--reverse {
+      left: 0;
+      transform: scaleX(-1);
+    }
+  }
+}

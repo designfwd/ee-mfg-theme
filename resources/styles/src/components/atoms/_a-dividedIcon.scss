@@ -1,0 +1,27 @@
+.a-dividedIcon {
+  color: $white;
+  display: flex;
+  flex-direction: row;
+  font-weight: $font-bold;
+
+  &.a-dividedIcon--tour {
+    color: $blue;
+  }
+
+  &.a-dividedIcon--footer {
+    border: $border-white;
+    color: $black;
+    padding: .25rem;
+
+    .a-dividedIcon__icon {
+      color: $white;
+    }
+  }
+
+  .a-dividedIcon__text {
+    padding-left: 1rem;
+    width: calc(100% - 2rem);
+  }
+
+  // .a-dividedIcon__icon {}
+}

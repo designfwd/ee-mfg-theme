@@ -1,0 +1,25 @@
+.a-rowLabel {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  position: relative;
+
+  .a-rowLabel__title {
+    color: $white;
+    font-size: 3rem;
+    line-height: 1;
+    margin: 0;
+    padding: 2rem 1rem;
+    width: 90%;
+  }
+
+  .a-rowLabel__flag {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 90%;
+    top: 0;
+    width: 5%;
+  }
+}

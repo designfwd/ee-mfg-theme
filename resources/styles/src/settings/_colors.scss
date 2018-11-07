@@ -1,0 +1,34 @@
+// Standard blacks and whites
+$black: black( 0, 1 );
+$black-10: black( 0, .1 );
+$black-25: black( 0, .25 );
+$black-50: black( 0, .5 );
+$black-65: black( 0, .65 );
+$black-85: black( 0, .85 );
+
+$white: black( 255, 1 );
+
+$clear-black: black( 0, 0 );
+$clear-white: black( 255, 0 );
+
+// Social media-related colors
+$color-facebook: rgba(#3b5998, 1);
+$color-googleplus: rgba(#db4437, 1);
+$color-linkedin: rgba(#0077b5, 1);
+$color-twitter: rgba(#1da1f2, 1);
+
+// Theme colors
+$clear: rgba(0, 0, 0, 0);
+$blue: rgba(1, 0, 102, 1);
+$light-blue: rgba(0, 153, 255, 1);
+$yellow: rgba(243, 222, 44, 1);
+$red: rgba(255, 51, 0, 1);
+$black: rgba(26, 42, 52, 1);
+$black-80: rgba(26, 42, 52, .8);
+$grey: rgba(213, 213, 216, 1);
+$white: rgba(255, 255, 255, 1);
+
+$base-text-shadow: 3px 3px 6px rgba(0, 0, 0, .5);
+
+$border-white: 1px solid $white;
+$border-grey: 1px solid $grey;
