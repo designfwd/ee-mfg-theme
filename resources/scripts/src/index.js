@@ -16,4 +16,4 @@ require('./vendor/smoothscroll-polyfill');
 /**
  * Module libraries
  */
-require('./modules/drawer-menu');
+import './modules/homepage';
