@@ -3,17 +3,18 @@
 /**
  * Imports SCSS for Webpack parsing and sets strict mode
  */
-require('../../styles/src/index.scss');
+import '../../styles/src/index.scss';
 
 /**
  * Vendor libraries and plugin settings
  */
-require('./vendor/dialog-polyfill');
-require('./vendor/lazysizes');
-require('./vendor/slick-carousel');
-require('./vendor/smoothscroll-polyfill');
+import './vendor/dialog-polyfill';
+import './vendor/lazysizes';
+import './vendor/slick-carousel';
+import './vendor/smoothscroll-polyfill';
 
 /**
  * Module libraries
  */
 import './modules/homepage';
+import './modules/site-wide';
