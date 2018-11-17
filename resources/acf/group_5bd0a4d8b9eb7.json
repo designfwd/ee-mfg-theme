@@ -3,7 +3,7 @@
     "title": "Homepage",
     "fields": [
         {
-            "key": "field_5bd0a5186f5f3__trashed",
+            "key": "field_5bd0a5186f5f3",
             "label": "Featured Slideshow",
             "name": "",
             "type": "tab",
@@ -19,7 +19,7 @@
             "endpoint": 0
         },
         {
-            "key": "field_5bd0a4e16f5f1__trashed",
+            "key": "field_5bd0a4e16f5f1",
             "label": "Slides",
             "name": "featured_slides",
             "type": "repeater",
@@ -41,7 +41,7 @@
                     "key": "field_5bd0a4fa6f5f2",
                     "label": "Image",
                     "name": "featured_slide_image",
-                    "type": "text",
+                    "type": "image",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
@@ -50,11 +50,16 @@
                         "class": "",
                         "id": ""
                     },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": ""
+                    "return_format": "id",
+                    "preview_size": "thumbnail",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
                 },
                 {
                     "key": "field_5bd0a5696f5f5",
@@ -116,7 +121,7 @@
             ]
         },
         {
-            "key": "field_5bd0a69b8c883__trashed",
+            "key": "field_5bd0a69b8c883",
             "label": "Marketing",
             "name": "",
             "type": "tab",
@@ -132,7 +137,7 @@
             "endpoint": 0
         },
         {
-            "key": "field_5bd0a6b08c884__trashed",
+            "key": "field_5bd0a6b08c884",
             "label": "Introduction Text",
             "name": "marketing_introduction",
             "type": "wysiwyg",
@@ -151,7 +156,7 @@
             "delay": 0
         },
         {
-            "key": "field_5bd0a7988c885__trashed",
+            "key": "field_5bd0a7988c885",
             "label": "Content Block",
             "name": "marketing_content_block",
             "type": "repeater",
@@ -210,7 +215,7 @@
             ]
         },
         {
-            "key": "field_5bd632b717862__trashed",
+            "key": "field_5bd632b717862",
             "label": "Capabilities",
             "name": "",
             "type": "tab",
@@ -226,7 +231,7 @@
             "endpoint": 0
         },
         {
-            "key": "field_5bd6347417868__trashed",
+            "key": "field_5bd6347417868",
             "label": "Image",
             "name": "capabilities_image",
             "type": "image",
@@ -250,7 +255,7 @@
             "mime_types": ""
         },
         {
-            "key": "field_5bd632c417863__trashed",
+            "key": "field_5bd632c417863",
             "label": "Description",
             "name": "capabilities_description",
             "type": "wysiwyg",
@@ -269,7 +274,7 @@
             "delay": 0
         },
         {
-            "key": "field_5bd6337c17864__trashed",
+            "key": "field_5bd6337c17864",
             "label": "Capabilities",
             "name": "capabilities_row",
             "type": "repeater",
@@ -352,7 +357,7 @@
             ]
         },
         {
-            "key": "field_5bd634a517869__trashed",
+            "key": "field_5bd634a517869",
             "label": "Industries Slider",
             "name": "",
             "type": "tab",
@@ -368,7 +373,7 @@
             "endpoint": 0
         },
         {
-            "key": "field_5bd634e71786b__trashed",
+            "key": "field_5bd634e71786b",
             "label": "Slides",
             "name": "industry_slides_copy",
             "type": "repeater",
@@ -479,8 +484,10 @@
     "style": "default",
     "label_placement": "top",
     "instruction_placement": "label",
-    "hide_on_screen": "",
+    "hide_on_screen": [
+        "the_content"
+    ],
     "active": 1,
     "description": "",
-    "modified": 1541522932
+    "modified": 1541732868
 }
