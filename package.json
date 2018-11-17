@@ -4,7 +4,8 @@
   "description": "WordPress boilerplate theme for use as a starting point for development",
   "scripts": {
     "build": "webpack --config config/webpack.config.js",
-    "watch": "webpack --watch --config config/webpack.config.js"
+    "watch": "webpack --watch --config config/webpack.config.js",
+    "dev": "webpack -p --config config/webpack.config.js"
   },
   "repository": "https://github.com/designfwd/fwd-boilerplate-theme.git",
   "author": "FWD Creative LLC",
@@ -64,7 +65,12 @@
     "stylelint-scss": "^3.3.0",
     "stylelint-webpack-plugin": "^0.10.5",
     "url-loader": "^1.1.1",
+<<<<<<< HEAD
     "webpack": "^4.19.1",
     "webpack-cli": "^3.1.0"
+=======
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1"
+>>>>>>> saji
   }
 }
