@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<?php // Solution-specific capabilities shown in a media block
-=======
 <?php // Solution-specific capabilities shown in a media block ?>
 <div class="o-capabilitiesBlock o-capabilitesBlock--solution">
     <img class="o-capabilitesBlock__image" src="<?php echo get_acf_image( get_field('solutions_capabilities_background_image'), '2560w', 'http://via.placeholder.com/2677x1271?text=call+to+action+background'); ?>" />
@@ -29,4 +26,3 @@
 
 
 </div>
->>>>>>> saji

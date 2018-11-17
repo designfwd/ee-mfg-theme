@@ -7,18 +7,6 @@
         <path fill="#FF0000" d="M 0,64 L 64,0 L 64,64" />
       </svg>
       <h3 class="m-sidebarTitle__text">
-<<<<<<< HEAD
-        Case Studies
-      </h3>
-    </div>
-    <ul class="o-sidebar__list">
-      <li class="o-sidebar__item">
-        Sagittis finibus enim, id tempus purus vulputate
-      </li>
-      <li class="o-sidebar__item">
-        Phasellus ultrices, dui vitae ultricies imperdiet
-      </li>
-=======
         <?php the_field('solution_case_studies_title'); ?>
       </h3>
     </div>
@@ -36,7 +24,6 @@
         <?php endwhile; ?>      
       <?php endif; ?>
     
->>>>>>> saji
     </ul>
   </div>
 
