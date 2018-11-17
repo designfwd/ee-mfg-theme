@@ -11,14 +11,6 @@
       </h3>
     </div>
     <ul class="o-sidebar__list">
-<<<<<<< HEAD
-      <li class="o-sidebar__item">
-        Sagittis finibus enim, id tempus purus vulputate
-      </li>
-      <li class="o-sidebar__item">
-        Phasellus ultrices, dui vitae ultricies imperdiet
-      </li>
-=======
     <?php
       // WP_Query arguments
       $args = array(
@@ -37,7 +29,6 @@
           endwhile;
         endif;
     ?>
->>>>>>> saji
     </ul>
   </div>
 
@@ -51,14 +42,6 @@
       </h3>
     </div>
     <ul class="o-sidebar__list">
-<<<<<<< HEAD
-      <li class="o-sidebar__item">
-        Sagittis finibus enim, id tempus purus vulputate
-      </li>
-      <li class="o-sidebar__item">
-        Phasellus ultrices, dui vitae ultricies imperdiet
-      </li>
-=======
     <?php 
       $categories = get_categories( array(
         'orderby'            => 'name',
@@ -72,7 +55,6 @@
     <?php 
       endforeach;
     ?>
->>>>>>> saji
     </ul>
   </div>
 

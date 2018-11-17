@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<?php // A grid of solution-related products, with introductory content
-=======
 <?php // A grid of solution-related products, with introductory content ?>
 <div class="o-productGrid">
 <?php
@@ -25,4 +22,3 @@ if(have_rows('solution_products')) :
 endif;
 ?>
 </div>
->>>>>>> saji

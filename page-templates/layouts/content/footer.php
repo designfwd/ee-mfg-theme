@@ -2,38 +2,6 @@
 <div class="o-footerContent">
 
   <div class="o-footerContent__logoContainer">
-<<<<<<< HEAD
-    <img class="o-footerContent__logo" src="http://via.placeholder.com/588x216?text=logo" />
-  </div>
-  <div class="o-footerContent__body">
-
-    <nav class="m-footerLinks">
-      <ul class="m-footerLinks__list">
-        <li class="m-footerLinks__item">
-          <a class="m-footerLinks__anchor" href="#">Solutions</a>
-        </li>
-        <li class="m-footerLinks__item">
-          <a class="m-footerLinks__anchor" href="#">Products</a>
-        </li>
-        <li class="m-footerLinks__item">
-          <a class="m-footerLinks__anchor" href="#">Who We Serve</a>
-        </li>
-        <li class="m-footerLinks__item">
-          <a class="m-footerLinks__anchor" href="#">Why Choose Us?</a>
-        </li>
-        <li class="m-footerLinks__item">
-          <a class="m-footerLinks__anchor" href="#">Join Our Team</a>
-        </li>
-        <li class="m-footerLinks__item">
-          <a class="m-footerLinks__anchor" href="#">Community</a>
-        </li>
-      </ul>
-    </nav>
-
-    <div class="m-footerSocial">
-      <div class="m-footerSocial__button">
-        <a class="a-dividedIcon a-dividedIcon--footer" href="#">
-=======
     <img class="o-footerContent__logo" src="<?php echo get_acf_image( get_field('footer_logo', 'option'), '540w', 'http://via.placeholder.com/588x216?text=logo'); ?> " />
   </div>
   <div class="o-footerContent__body">
@@ -50,53 +18,10 @@
     <div class="m-footerSocial">
       <div class="m-footerSocial__button">
         <a class="a-dividedIcon a-dividedIcon--footer" href="/contact-us">
->>>>>>> saji
           <span class="a-dividedIcon__text">Contact Us</span>
           <span class="a-dividedIcon__icon">></span>
         </a>
       </div>
-<<<<<<< HEAD
-      <a class="m-footerSocial__icon" href="#">
-        F
-      </a>
-      <a class="m-footerSocial__icon" href="#">
-        In
-      </a>
-      <a class="m-footerSocial__icon" href="#">
-        Tw
-      </a>
-    </div>
-
-    <div class="m-footerContact">
-      <div class="m-footerContact__option">
-        <h5 class="m-footerContact__title">
-          E&amp;E Mfg Co., Inc.
-        </h5>
-        <div class="m-footerContact__location">
-          <a class="m-footerContact__address" href="#">
-            300/400 Industrial Drive, Plymouth, MI 48170
-          </a>
-          <span class="m-footerContact__divider">/</span>
-          <a class="m-footerContact__phone" href="#">
-            734-451-7600
-          </a>
-        </div>
-      </div>
-      <div class="m-footerContact__option">
-        <h5 class="m-footerContact__title">
-          E&amp;E Mfg of Tennessee, LLC
-        </h5>
-        <div class="m-footerContact__location">
-          <a class="m-footerContact__address" href="#">
-            Athens, TN 37303
-          </a>
-          <span class="m-footerContact__divider">/</span>
-          <a class="m-footerContact__phone" href="#">
-            423-649-17000
-          </a>
-        </div>
-      </div>
-=======
     <?php
       if(have_rows('social_links', 'option')):
         while(have_rows('social_links', 'option')): the_row();
@@ -153,7 +78,6 @@
         endwhile;
       endif;
     ?>
->>>>>>> saji
     </div>
 
   </div>
