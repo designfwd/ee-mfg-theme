@@ -1,24 +1,14 @@
 <?php
-<<<<<<< HEAD
-// Sets menu locations
-=======
 /**
  * Undocumented function
  *
  * @return void
  * sets menu locations */
 
->>>>>>> saji
 function fwd_menus() {
   register_nav_menus(
     [
       'primary_nav' => __('Primary Navigation', 'fwd'),
-<<<<<<< HEAD
-    ]
-  );
-}
-add_action( 'after_setup_theme', 'fwd_menus');
-=======
       'footer_nav' => __('Footer Navigation', 'fwd'),
       'top_nav' => __('Top Navigation', 'fwd'),
     ]
@@ -55,4 +45,3 @@ function add_search_box_to_menu( $items, $args ) {
   return $items;
 }
 add_filter( 'wp_nav_menu_items','add_search_box_to_menu', 10, 2 );
->>>>>>> saji

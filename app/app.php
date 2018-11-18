@@ -11,10 +11,7 @@ require 'helpers/get-partial.php';
 require 'helpers/get-svg.php';
 require 'helpers/picsum-img-url.php';
 require 'helpers/placeholder-img-url.php';
-<<<<<<< HEAD
-=======
 require 'helpers/image-helpers.php';
->>>>>>> saji
 
 
 /**
