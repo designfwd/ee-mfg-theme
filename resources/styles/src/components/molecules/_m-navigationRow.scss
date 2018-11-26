@@ -3,11 +3,21 @@
   display: flex;
   height: 100%;
   list-style-type: none;
+  margin: 0px;
 
   .m-navigationRow__link {
+    align-items: center;
     display: none;
     height: 100%;
     padding: 0 .65rem;
+
+    a {
+      color: $light-blue;
+      font-size: 1rem;
+      font-weight: $font-semibold;
+      letter-spacing: .08rem;
+      text-transform: uppercase;
+    }
 
     @media(min-width: 768px) {
       display: flex;
@@ -43,5 +53,19 @@
       height: 55px;
       display: block;
     }
+  }
+}
+
+#menu-primary li {
+  position: relative;
+
+  &:hover ul {
+    background-color: #fff;
+    display: block;
+    left: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 40px;
+    width: 400px;
   }
 }

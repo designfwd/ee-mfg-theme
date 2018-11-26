@@ -11,12 +11,12 @@
         
         if ($i % 2):
   ?>
-          <div class="o-capabilityBlocks__block">
+          <a class="o-capabilityBlocks__block" href="<?php echo $link; ?>">
             <div class="m-capabilityBlock">
-              <p class="m-capabilityBlock__description">
+              <div class="m-capabilityBlock__description">
                 <?php echo $description; ?>
-              </p>
-              <a class="m-capabilityBlock__mediaBlock" href="<?php echo $link; ?>">
+              </div>
+              <div class="m-capabilityBlock__mediaBlock">
                 <img class="m-capabilityBlock__image" src="<?php echo $image; ?>" />
                 <div class="m-capabilityBlock__label">
                   <div class="a-blockLabel">
@@ -28,13 +28,13 @@
                     </svg>
                   </div>
                 </div>
-              </a>
+              </div>
             </div>
-          </div>
+          </a>
   <?php    else: ?>
-          <div class="o-capabilityBlocks__block o-capabilityBlocks__block--reverse">
+          <a class="o-capabilityBlocks__block o-capabilityBlocks__block--reverse" href="<?php echo $link; ?>">
             <div class="m-capabilityBlock m-capabilityBlock--reverse">
-              <a class="m-capabilityBlock__mediaBlock" href="<?php echo $link; ?>">
+              <div class="m-capabilityBlock__mediaBlock">
                 <img class="m-capabilityBlock__image m-capabilityBlock__image--reverse" src="<?php echo $image; ?>" />
                 <div class="m-capabilityBlock__label m-capabilityBlock__label--reverse">
                   <div class="a-blockLabel a-blockLabel--reverse">
@@ -46,12 +46,12 @@
                     </svg>
                   </div>
                 </div>
-              </a>
-              <p class="m-capabilityBlock__description">
+              </div>
+              <div class="m-capabilityBlock__description">
                 <?php echo $description; ?>
-              </p>
+              </div>
             </div>
-          </div>
+        </a>
     <?php  endif;
         $i++;
       endwhile;

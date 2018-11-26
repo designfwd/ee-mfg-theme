@@ -22,11 +22,13 @@
         <section id="introContent" class="categoryContact__intro">
           <?php get_partial('content', 'intro'); ?>
         </section>
+        <section class="contactContentWrapper">
         <section id="contactForm" class="categoryContact__contactForm">
           <?php get_partial('content', 'contact-form'); ?>
         </section>
         <section id="contactLinks" class="categoryContact__contactLinks">
           <?php get_partial('links', 'contact'); ?>
+        </section>
         </section>
       </main>
 

@@ -43,7 +43,11 @@
           <div class="m-ctaCard__button">
             <a class="a-dividedIcon" href="<?php the_sub_field('footer_call_to_action_call_out_link_link', 'option'); ?>">
               <span class="a-dividedIcon__text"><?php the_sub_field('footer_call_to_action_call_out_link_title', 'option'); ?></span>
-              <span class="a-dividedIcon__icon">></span>
+              <span class="a-dividedIcon__icon">
+                <svg class="a-dividedIcon__arrow" viewBox="0 0 100 100">
+                  <path fill="none" stroke="black" stroke-width="8" d="M 0,40 L 30,65 L 60,40" />
+                </svg>
+              </span>
             </a>
           </div>
         </div>

@@ -23,5 +23,14 @@
     width: calc(100% - 2rem);
   }
 
-  // .a-dividedIcon__icon {}
+  .a-dividedIcon__icon {
+    align-items: center;
+    display: flex;
+
+    .a-dividedIcon__arrow {
+      display: flex;
+      height: 1rem;
+      width: 1rem;
+    }
+  }
 }

@@ -1,6 +1,6 @@
 .generalLanding {
 
-  .generalLanding__pageBanner {
+  .generalLanding__intro {
     padding-top: 10rem;
   }
 
@@ -31,4 +31,17 @@
       width: 70%;
     }
   }
+}
+
+.generalLanding__main {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding-bottom: 3rem;
+}
+
+.generalLanding__categoryLinks {
+  margin: 0 auto;
+  max-width: 1300px;
+  padding: 0 20px;
+  width: 100%;
 }

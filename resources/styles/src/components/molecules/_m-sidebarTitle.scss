@@ -1,0 +1,10 @@
+.m-sidebarTitle__text {
+  display: flex;
+  position:relative;
+
+  .m-sidebarTitle__flag {
+    align-self: flex-end;
+    height: 12px;
+    margin: 0 2rem 0 0;
+  }
+}

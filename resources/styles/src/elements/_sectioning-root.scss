@@ -4,6 +4,7 @@
 
 html {
   box-sizing: border-box;
+  color: #333;
   scroll-behavior: smooth;
   font-family: $base-font-family;
 }
@@ -21,6 +22,8 @@ html {
 body {
   display: flex;
   flex-direction: column;
+  font-size: 1.1rem;
+  line-height: 1.4rem;
   margin: 0;
   width: 100%;
 }
