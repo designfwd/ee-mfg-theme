@@ -18,12 +18,15 @@
       transition: margin-left $base-duration $base-timing;
 
       @media(min-width: 480px) {
+        color: $light-blue;
       }
 
       @media(min-width: 768px) {
+        color: $light-blue;
       }
 
       @media(min-width: 1280px) {
+        color: $light-blue;
       }
     }
   }
@@ -32,7 +35,6 @@
     color: $light-blue;
     max-width: 700px;
     text-align: center;
-    
     .o-introContent__title {
       display: flex;
       justify-content: center;
@@ -44,12 +46,12 @@
 
       .o-introContent__decoration {
         align-self: center;
-        height: 20px;
-        width: 30px;
+        height: 40px;
+        width: 40px;
         margin: 0 0 0 2rem;
 
         @media(max-width: 600px) {
-          margin: 10px 0 0 0;
+          margin: 10px 0 0;
         }
       }
     }

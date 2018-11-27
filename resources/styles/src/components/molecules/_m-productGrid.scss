@@ -1,5 +1,5 @@
 .m-productGrid {
-  position:relative;
+  position: relative;
 
   .m-productGrid__image {
     transform: scale(1);
@@ -7,7 +7,7 @@
     z-index: 1;
     width: 93%;
   }
-  
+
   .m-productGrid__title {
     align-items: center;
     background-color: $black-80;

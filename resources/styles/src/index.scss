@@ -148,6 +148,9 @@
 /**
  * Vendor-specific overrides and settings
  */
+
+@import './vendor/slick';
+@import './vendor/slick-theme';
 // Dialog polyfill
 @import './vendor/dialog-polyfill';
 // Gravity forms
