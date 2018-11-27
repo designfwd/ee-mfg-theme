@@ -1,12 +1,10 @@
 import $ from 'jquery';
+import '../vendor/slick-carousel';
     
-
-alert('homepage');
    $('.o-featureSlider').slick({
         lazyLoad: 'ondemand',
-        slidesToShow: 3,
+        slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
       });
-

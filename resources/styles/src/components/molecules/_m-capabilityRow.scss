@@ -1,18 +1,30 @@
 .m-capabilityRow {
+  flex: 0 1 100%;
+  line-height: 0px;
+  overflow: hidden;
   position: relative;
   width: 100%;
 
+  &:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
   .m-capabilityRow__image {
     position: relative;
-    max-height: 320px;
-    width: 95%;
+    width: 98%;
     z-index: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
   }
 
   .m-capabilityRow__label {
     background-color: $black-80;
-    bottom: calc(100% + 2rem);
-    left: 55%;
+    /*bottom: calc(100% + 2rem);*/
+    bottom: 0px;
+    right: 0px;
     position: absolute;
     width: 50%;
     z-index: 2;

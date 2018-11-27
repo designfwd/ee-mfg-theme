@@ -2,8 +2,9 @@
   display: flex;
   background-color: $white;
   flex-direction: column;
-  height: 110px;
-  margin: 0 2.5%;
+  height: 90px;
+  margin: 0 auto;
+  max-width: 1300px;
   position: fixed;
   width: 95%;
   z-index: 4;
@@ -25,5 +26,20 @@
 
   .o-navigationMenu__topRow {
     background-color: $grey;
+  }
+  .o-navigationMenu__bottomRow {
+    a {
+      color: $black;
+    }
+  }
+}
+
+#menu-primary {
+
+  li {
+
+    ul {
+      display: none;
+    }
   }
 }

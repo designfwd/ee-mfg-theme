@@ -1,3 +1,11 @@
 .o-featureSlider {
   width: 100%;
 }
+
+.slick-track {
+  width: 100% !important;
+
+  .slick-slide {
+    width: 100% !important;
+  }
+}

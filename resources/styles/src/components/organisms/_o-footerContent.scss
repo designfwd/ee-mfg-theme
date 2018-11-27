@@ -13,17 +13,29 @@
     flex-wrap: wrap;
   }
 
-  .o-footerContent__logoContainer {
-    padding: 2rem;
-    width: 65%;
+  .o-footerContent__mainContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    max-width: 1000px;
+    width: 95%;
 
-    @media(min-width: 768px) {
-      width: 35%;
-      padding: 4rem 2rem;
+    .o-footerContent__logoContainer {
+      padding: 2rem;
+      flex: 0 1 30%;
+
+      @media(min-width: 768px) {
+        flex: 0 1 30%;
+        padding: 4rem 2rem;
+      }
+
+      .o-footerContent__logo {
+        width: 100%;
+      }
     }
 
-    .o-footerContent__logo {
-      width: 100%;
+    .o-footerContent__body {
+      flex: 0 1 70%;
     }
   }
 }

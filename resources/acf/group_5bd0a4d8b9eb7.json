@@ -231,10 +231,10 @@
             "endpoint": 0
         },
         {
-            "key": "field_5bd6347417868",
-            "label": "Image",
-            "name": "capabilities_image",
-            "type": "image",
+            "key": "field_5bfd74f884bb3",
+            "label": "Title",
+            "name": "capabilities_title",
+            "type": "text",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -243,16 +243,11 @@
                 "class": "",
                 "id": ""
             },
-            "return_format": "id",
-            "preview_size": "thumbnail",
-            "library": "all",
-            "min_width": "",
-            "min_height": "",
-            "min_size": "",
-            "max_width": "",
-            "max_height": "",
-            "max_size": "",
-            "mime_types": ""
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
         },
         {
             "key": "field_5bd632c417863",
@@ -489,5 +484,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1541732868
+    "modified": 1543337284
 }

@@ -7,8 +7,7 @@
 // aside {}
 // footer {}
 // h1 {}
-// h2 {}
-// h3 {}
+
 // h4 {}
 // h5 {}
 // h6 {}
@@ -23,3 +22,55 @@ section {
   flex-direction: column;
   width: 100%;
 }
+h1.o-introContent__title {
+  color: $light-blue;
+  font-size: 6rem;
+  line-height: 5rem;
+  text-transform: uppercase;
+}
+
+ h2.o-capabilityStack__headline,
+ h2.o-supplementaryContent__title,
+ h2.o-productGrid__headline {
+  color: $blue;
+  font-size: 4.6rem;
+  font-weight: $font-bold;
+  line-height: 3.8rem;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 4rem 0rem 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  width: 95%;
+ }
+
+ h2.a-rowLabel__title,
+ h2.a-blockLabel__title {
+  font-size: 2.5rem;
+  line-height: 1;
+  margin: 0px;
+  padding: 1rem;
+ }
+
+ h3,
+ h3.m-sidebarTitle__text {
+  color: $blue;
+  font-size: 2rem;
+  font-weight: $font-bold;
+ }
+
+ h3.m-sidebarTitle__text,
+ h3.m-featureSlider__title {
+  text-transform: uppercase;
+ }
+
+ h3.m-featureSlider__title {
+  font-size: 3rem;
+  line-height: 2.8rem;
+  margin: 0px;
+ }
+
+ h3.o-callToAction__titleText {
+  color: $blue;
+  font-size: 3rem;
+ }

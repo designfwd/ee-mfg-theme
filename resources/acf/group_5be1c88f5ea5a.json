@@ -19,30 +19,6 @@
             "endpoint": 0
         },
         {
-            "key": "field_5be1c9081ddef",
-            "label": "Image",
-            "name": "intro_image",
-            "type": "image",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "return_format": "id",
-            "preview_size": "thumbnail",
-            "library": "all",
-            "min_width": "",
-            "min_height": "",
-            "min_size": "",
-            "max_width": "",
-            "max_height": "",
-            "max_size": "",
-            "mime_types": ""
-        },
-        {
             "key": "field_5be1c9281ddf1",
             "label": "Title",
             "name": "intro_title",
@@ -82,7 +58,7 @@
         },
         {
             "key": "field_5be1c9641ddf2",
-            "label": "Featured Solution",
+            "label": "Banner Image",
             "name": "",
             "type": "tab",
             "instructions": "",
@@ -122,7 +98,7 @@
         },
         {
             "key": "field_5be1ca6a1ddf4",
-            "label": "Solutions",
+            "label": "Main Content",
             "name": "",
             "type": "tab",
             "instructions": "",
@@ -138,7 +114,7 @@
         },
         {
             "key": "field_5be1cb0a1ddf6",
-            "label": "Solutions",
+            "label": "Solutions Content",
             "name": "solutions",
             "type": "repeater",
             "instructions": "",
@@ -272,7 +248,7 @@
         },
         {
             "key": "field_5be1f539d7307",
-            "label": "Capabitlities",
+            "label": "Capabilities",
             "name": "",
             "type": "tab",
             "instructions": "",
@@ -285,6 +261,30 @@
             },
             "placement": "left",
             "endpoint": 0
+        },
+        {
+            "key": "field_5be1f557d7309",
+            "label": "Background Image",
+            "name": "solutions_capabilities_background_image",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
         },
         {
             "key": "field_5be1f546d7308",
@@ -344,25 +344,6 @@
                     "delay": 0
                 }
             ]
-        },
-        {
-            "key": "field_5be1f557d7309",
-            "label": "Background Image",
-            "name": "solutions_capabilities_background_image",
-            "type": "text",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
         },
         {
             "key": "field_5be1f5c0d730c",
@@ -593,6 +574,44 @@
             "endpoint": 0
         },
         {
+            "key": "field_5bfc588a29d34",
+            "label": "Title",
+            "name": "solutions_products_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5bfc58b968c61",
+            "label": "Text",
+            "name": "solutions_products_text",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
             "key": "field_5be1f799d7317",
             "label": "Products",
             "name": "solution_products",
@@ -677,5 +696,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1541611711
+    "modified": 1543292985
 }

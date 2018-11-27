@@ -17,13 +17,14 @@
 
   .a-blockLabel__flag {
     position: absolute;
-    left: calc(100% - 1rem);
+    right: 0;
     top: 0;
-    width: 1rem;
+    width: 1.6rem;
     z-index: 2;
 
     &.a-blockLabel__flag--reverse {
       left: 0;
+      right: auto;
       transform: scaleX(-1);
     }
   }
