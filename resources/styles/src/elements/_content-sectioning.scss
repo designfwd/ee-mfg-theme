@@ -38,7 +38,7 @@ h1.o-introContent__title {
   line-height: 3.8rem;
   margin: 0 auto;
   max-width: 800px;
-  padding: 4rem 1rem 1rem;
+  padding: 4rem 0rem 1rem;
   text-align:center;
   text-transform: uppercase;
   width: 95%;
@@ -59,8 +59,15 @@ h1.o-introContent__title {
   font-weight: $font-bold;
  }
 
- h3.m-sidebarTitle__text {
+ h3.m-sidebarTitle__text,
+ h3.m-featureSlider__title {
   text-transform: uppercase;
+ }
+
+ h3.m-featureSlider__title {
+  font-size: 3rem;
+  line-height: 2.8rem;
+  margin: 0px;
  }
 
  h3.o-callToAction__titleText {
