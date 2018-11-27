@@ -3,7 +3,7 @@
     "title": "Footer",
     "fields": [
         {
-            "key": "field_5bd65661e9d89__trashed",
+            "key": "field_5bd65661e9d89",
             "label": "General Settings",
             "name": "",
             "type": "tab",
@@ -19,7 +19,7 @@
             "endpoint": 0
         },
         {
-            "key": "field_5bd6568be9d8a__trashed",
+            "key": "field_5bd6568be9d8a",
             "label": "Logo",
             "name": "footer_logo",
             "type": "image",
@@ -43,7 +43,7 @@
             "mime_types": ""
         },
         {
-            "key": "field_5bd656b0e9d8b__trashed",
+            "key": "field_5bd656b0e9d8b",
             "label": "Locations",
             "name": "footer_locations",
             "type": "repeater",
@@ -121,7 +121,7 @@
             ]
         },
         {
-            "key": "field_5bd63651fddd8__trashed",
+            "key": "field_5bd63651fddd8",
             "label": "Call to Action",
             "name": "",
             "type": "tab",
@@ -137,7 +137,7 @@
             "endpoint": 0
         },
         {
-            "key": "field_5bd6375dfdddb__trashed",
+            "key": "field_5bd6375dfdddb",
             "label": "Background Image",
             "name": "footer_call_to_action_background_image",
             "type": "image",
@@ -161,7 +161,7 @@
             "mime_types": ""
         },
         {
-            "key": "field_5bd6366efddd9__trashed",
+            "key": "field_5bd6366efddd9",
             "label": "Title",
             "name": "footer_call_to_action_title",
             "type": "text",
@@ -180,7 +180,7 @@
             "maxlength": ""
         },
         {
-            "key": "field_5bd6368ffddda__trashed",
+            "key": "field_5bd6368ffddda",
             "label": "Description",
             "name": "footer_call_to_action_description",
             "type": "wysiwyg",
@@ -199,7 +199,7 @@
             "delay": 0
         },
         {
-            "key": "field_5bd63784fdddc__trashed",
+            "key": "field_5bd63784fdddc",
             "label": "Call Out Box",
             "name": "footer_call_to_action_call_out_box",
             "type": "group",
@@ -337,7 +337,7 @@
             ]
         },
         {
-            "key": "field_5bd63838cbef5__trashed",
+            "key": "field_5bd63838cbef5",
             "label": "Links",
             "name": "",
             "type": "tab",
@@ -353,7 +353,7 @@
             "endpoint": 0
         },
         {
-            "key": "field_5bd63848cbef6__trashed",
+            "key": "field_5bd63848cbef6",
             "label": "Link Box",
             "name": "footer_links",
             "type": "repeater",
@@ -436,7 +436,7 @@
             ]
         },
         {
-            "key": "field_5bd6655e17599__trashed",
+            "key": "field_5bd6655e17599",
             "label": "Newsletter",
             "name": "footer_newsletter",
             "type": "group",
@@ -496,7 +496,7 @@
             ]
         },
         {
-            "key": "field_5bd64d58dd017__trashed",
+            "key": "field_5bd64d58dd017",
             "label": "Social Links",
             "name": "",
             "type": "tab",
@@ -512,7 +512,7 @@
             "endpoint": 0
         },
         {
-            "key": "field_5bd64d6bdd018__trashed",
+            "key": "field_5bd64d6bdd018",
             "label": "Social Links",
             "name": "social_links",
             "type": "repeater",
@@ -705,7 +705,7 @@
             }
         ]
     ],
-    "menu_order": 0,
+    "menu_order": 1,
     "position": "normal",
     "style": "default",
     "label_placement": "top",
@@ -713,5 +713,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1541522932
+    "modified": 1543291863
 }
