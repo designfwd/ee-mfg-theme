@@ -15,18 +15,17 @@
 }
 #caseStudies-wrapper {
   background-color: #ededed;
-  display:flex;
+  display: flex;
   margin: 0 auto;
   padding-bottom: 2rem;
 
   .caseStudies-wrapper-container {
-    display:flex;
+    display: flex;
     flex-direction: row;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
     max-width: 1300px;
-  
     .solutionLanding__caseStudies {
       flex: 0 1 40%;
     }

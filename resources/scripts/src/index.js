@@ -10,7 +10,6 @@ import '../../styles/src/index.scss';
  */
 import './vendor/dialog-polyfill';
 import './vendor/lazysizes';
-import './vendor/slick-carousel';
 import './vendor/smoothscroll-polyfill';
 
 
