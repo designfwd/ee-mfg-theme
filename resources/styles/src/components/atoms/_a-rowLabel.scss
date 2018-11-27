@@ -7,19 +7,16 @@
 
   .a-rowLabel__title {
     color: $white;
-    font-size: 3rem;
-    line-height: 1;
     margin: 0;
-    padding: 2rem 1rem;
-    width: 90%;
+    width: 95%;
   }
 
   .a-rowLabel__flag {
     margin: 0;
     padding: 0;
     position: absolute;
-    left: 90%;
+    right: 0;
     top: 0;
-    width: 5%;
+    width: 4%;
   }
 }

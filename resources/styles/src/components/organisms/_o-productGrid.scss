@@ -1,0 +1,36 @@
+.o-productGrid__headline {
+  display: flex;
+  flex: 0 1 100%;
+  justify-content: center;
+
+  .o-productGrid__topDecoration {
+    align-self: center;
+    height: 30px;
+    width: 30px;
+    margin: 0 0 0 2rem;
+  }
+}
+
+.o-productGrid__description {
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+  width: 95%;
+}
+
+.o-productGrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+
+  .o-productGrid__block {
+    flex: 0 1 33.33%;
+    line-height: 0px;
+    overflow: hidden;
+
+    &:hover img {
+      transform: scale(1.2);
+    }
+  }
+}

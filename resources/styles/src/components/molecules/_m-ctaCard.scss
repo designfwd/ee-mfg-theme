@@ -18,7 +18,7 @@
     align-items: center;
     display: flex;
     flex-direction: row;
-    padding: 1rem 0;
+    padding: .3rem;
 
     .m-ctaCard__icon {
       margin: 0 5% 0 0;
@@ -29,8 +29,16 @@
       background-color: $light-blue;
       padding: .5rem 0;
       width: 80%;
+      -webkit-transition: .3s;
+      -moz-transition: .3s;
+      -o-transition: .3s;
+      transition: .3s;
 
       &.m-ctaCard__button--tour {
+        background-color: $yellow;
+      }
+
+      &:hover {
         background-color: $yellow;
       }
     }

@@ -4,3 +4,21 @@
     padding-top: 10rem;
   }
 }
+
+.contactContentWrapper {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1300px;
+  width: 100%;
+}
+
+.categoryContact__contactForm {
+  flex: 0 1 70%;
+}
+
+.categoryContact__contactLinks {
+  flex: 0 1 30%;
+}

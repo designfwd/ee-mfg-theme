@@ -1,15 +1,15 @@
 .o-marketingBlocks {
-  background-color: $blue;
   color: $light-blue;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 1200px;
   width: 100%;
 
   .o-marketingBlocks__description {
-    font-weight: $font-bold;
+    font-weight: $font-semibold;
     margin: 0;
-    padding: 2rem 10% 1rem;
+    padding: 3rem 10% 2rem;
     text-align: center;
     width: 80%;
   }

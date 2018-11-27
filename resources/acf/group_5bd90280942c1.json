@@ -3,7 +3,7 @@
     "title": "Category Landing Page",
     "fields": [
         {
-            "key": "field_5bd9029450e54__trashed",
+            "key": "field_5bd9029450e54",
             "label": "Introduction",
             "name": "",
             "type": "tab",
@@ -19,31 +19,7 @@
             "endpoint": 0
         },
         {
-            "key": "field_5bd9044b50e57__trashed",
-            "label": "Image",
-            "name": "intro_image",
-            "type": "image",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "return_format": "id",
-            "preview_size": "thumbnail",
-            "library": "all",
-            "min_width": "",
-            "min_height": "",
-            "min_size": "",
-            "max_width": "",
-            "max_height": "",
-            "max_size": "",
-            "mime_types": ""
-        },
-        {
-            "key": "field_5bd903ed50e55__trashed",
+            "key": "field_5bd903ed50e55",
             "label": "Title",
             "name": "intro_title",
             "type": "text",
@@ -62,7 +38,7 @@
             "maxlength": ""
         },
         {
-            "key": "field_5bd903fb50e56__trashed",
+            "key": "field_5bd903fb50e56",
             "label": "Text",
             "name": "intro_text",
             "type": "wysiwyg",
@@ -81,7 +57,7 @@
             "delay": 0
         },
         {
-            "key": "field_5bd90663c3cff__trashed",
+            "key": "field_5bd90663c3cff",
             "label": "Capability Blocks",
             "name": "",
             "type": "tab",
@@ -97,7 +73,7 @@
             "endpoint": 0
         },
         {
-            "key": "field_5bd9077bc3d04__trashed",
+            "key": "field_5bd9077bc3d04",
             "label": "Capability Rows",
             "name": "capability_block_rows",
             "type": "repeater",
@@ -199,7 +175,7 @@
             ]
         },
         {
-            "key": "field_5bd9126fbd943__trashed",
+            "key": "field_5bd9126fbd943",
             "label": "Supplementary Content",
             "name": "",
             "type": "tab",
@@ -215,7 +191,7 @@
             "endpoint": 0
         },
         {
-            "key": "field_5bd912b0bd944__trashed",
+            "key": "field_5bd912b0bd944",
             "label": "Title",
             "name": "supplementary_content_title",
             "type": "text",
@@ -234,7 +210,7 @@
             "maxlength": ""
         },
         {
-            "key": "field_5bd912c0bd945__trashed",
+            "key": "field_5bd912c0bd945",
             "label": "Description",
             "name": "supplementary_content_description",
             "type": "wysiwyg",
@@ -276,5 +252,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1541522931
+    "modified": 1543259074
 }

@@ -18,7 +18,18 @@
   }
 
   .m-capabilityBlock__description {
+    color: #333;
     margin: 2rem;
+  }
+
+  .m-capabilityBlock__mediaBlock {
+    overflow: hidden;
+
+    .m-capabilityBlock__image {
+      transform: scale(1);
+      transition: .5s ease-in-out;
+      z-index: 1;
+    }
   }
 
   .m-capabilityBlock__mediaBlock,
@@ -30,7 +41,7 @@
 
     .m-capabilityBlock__image {
       position: relative;
-      width: calc(100% - 2.4rem);
+      width: calc(100% - 3.2rem);
       z-index: 1;
     }
 
@@ -40,7 +51,7 @@
       padding: 0;
       position: absolute;
       left: 20%;
-      top: 50%;
+      bottom: 0px;
       width: 80%;
       z-index: 2;
 

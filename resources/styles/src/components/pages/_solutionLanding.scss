@@ -1,0 +1,43 @@
+.solutionLanding__intro {
+  padding-top: 10rem;
+}
+
+.solutionLanding__featuredImage {
+  align-items: flex-start;
+  padding-top: 1rem;
+}
+
+.solutionLanding__bodyContent {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 3rem 0px;
+  width: 95%;
+}
+#caseStudies-wrapper {
+  background-color: #ededed;
+  display:flex;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+
+  .caseStudies-wrapper-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1300px;
+  
+    .solutionLanding__caseStudies {
+      flex: 0 1 40%;
+    }
+
+    .solutionLanding__resources {
+      flex: 0 1 40%;
+    }
+  }
+}
+
+.solutionLanding__productGrid {
+  margin: 0 auto;
+  width: 100%;
+}

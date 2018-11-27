@@ -8,4 +8,3 @@ import '../vendor/slick-carousel';
         autoplay: true,
         autoplaySpeed: 2000,
       });
-

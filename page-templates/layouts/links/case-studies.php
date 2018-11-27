@@ -3,10 +3,10 @@
 
   <div class="o-sidebar__widget">
     <div class="m-sidebarTitle">
-      <svg class="m-sidebarTitle__flag">
-        <path fill="#FF0000" d="M 0,64 L 64,0 L 64,64" />
-      </svg>
       <h3 class="m-sidebarTitle__text">
+        <svg class="m-sidebarTitle__flag" viewBox="0 0 64 64">
+          <path fill="#FF0000" d="M 0,64 L 64,0 L 64,64" />
+        </svg>
         <?php the_field('solution_case_studies_title'); ?>
       </h3>
     </div>
