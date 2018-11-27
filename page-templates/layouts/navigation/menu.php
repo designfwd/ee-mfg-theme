@@ -1,6 +1,6 @@
-<?php // Navigation menu with links and search functionality ?>
+<?php // Navigation menu with links and search functionality  ?>
 <nav class="o-navigationMenu">
-  <img class="o-navigationMenu__image" src="http://via.placeholder.com/588x216/010066/ffffff?text=E+E+Manufacturing" />  
+  <img class="o-navigationMenu__image" src="<?php echo get_acf_image( get_field('site_logo', 'option'), '540w', 'http://via.placeholder.com/588x216/010066/ffffff?text=E+E+Manufacturing'); ?> " />  
   <?php
     
     wp_nav_menu( array(
