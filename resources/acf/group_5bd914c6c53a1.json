@@ -3,7 +3,7 @@
     "title": "Contact Category",
     "fields": [
         {
-            "key": "field_5bd914e69af04",
+            "key": "field_5bd914e69af04__trashed",
             "label": "Introduction",
             "name": "",
             "type": "tab",
@@ -19,7 +19,7 @@
             "endpoint": 0
         },
         {
-            "key": "field_5bd915999af05",
+            "key": "field_5bd915999af05__trashed",
             "label": "Image",
             "name": "intro_image",
             "type": "image",
@@ -43,7 +43,7 @@
             "mime_types": ""
         },
         {
-            "key": "field_5bd915c89af06",
+            "key": "field_5bd915c89af06__trashed",
             "label": "Title",
             "name": "intro_title",
             "type": "text",
@@ -62,7 +62,7 @@
             "maxlength": ""
         },
         {
-            "key": "field_5bd915d99af07",
+            "key": "field_5bd915d99af07__trashed",
             "label": "Text",
             "name": "intro_text",
             "type": "wysiwyg",
@@ -81,7 +81,7 @@
             "delay": 0
         },
         {
-            "key": "field_5bd916b66c9d4",
+            "key": "field_5bd916b66c9d4__trashed",
             "label": "Contact Form",
             "name": "",
             "type": "tab",
@@ -97,7 +97,7 @@
             "endpoint": 0
         },
         {
-            "key": "field_5bd916dd6c9d5",
+            "key": "field_5bd916dd6c9d5__trashed",
             "label": "Title",
             "name": "contact_form_title",
             "type": "text",
@@ -116,7 +116,7 @@
             "maxlength": ""
         },
         {
-            "key": "field_5bd916f56c9d6",
+            "key": "field_5bd916f56c9d6__trashed",
             "label": "Description",
             "name": "contact_form_description",
             "type": "wysiwyg",
@@ -135,7 +135,7 @@
             "delay": 0
         },
         {
-            "key": "field_5bd917086c9d7",
+            "key": "field_5bd917086c9d7__trashed",
             "label": "Form",
             "name": "contact_form_form",
             "type": "forms",
@@ -152,7 +152,7 @@
             "multiple": 0
         },
         {
-            "key": "field_5bd91e010da03",
+            "key": "field_5bd91e010da03__trashed",
             "label": "Category Links",
             "name": "",
             "type": "tab",
@@ -168,7 +168,7 @@
             "endpoint": 0
         },
         {
-            "key": "field_5bd91e530da06",
+            "key": "field_5bd91e530da06__trashed",
             "label": "Links",
             "name": "category_links",
             "type": "repeater",
@@ -231,7 +231,7 @@
                     "key": "field_5bd91eb20da09",
                     "label": "Background Image",
                     "name": "category_link_background_image",
-                    "type": "image",
+                    "type": "text",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
@@ -240,16 +240,11 @@
                         "class": "",
                         "id": ""
                     },
-                    "return_format": "url",
-                    "preview_size": "thumbnail",
-                    "library": "all",
-                    "min_width": "",
-                    "min_height": "",
-                    "min_size": "",
-                    "max_width": "",
-                    "max_height": "",
-                    "max_size": "",
-                    "mime_types": ""
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
                 }
             ]
         }
@@ -273,5 +268,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1543270819
+    "modified": 1541522932
 }

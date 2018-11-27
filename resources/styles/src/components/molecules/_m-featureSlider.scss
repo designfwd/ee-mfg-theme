@@ -1,25 +1,24 @@
 .m-featureSlider__slide {
-    position:relative;
-    width: 100%; 
+  position: relative;
+  width: 100%;
 
-    .m-featureSlider__image {
-      width: 100%;
+  .m-featureSlider__image {
+    width: 100%;
+  }
+
+  .m-featureSlider__content {
+    background: linear-gradient(135deg, rgba(0,0,152,.8), rgba(0,0,0,.8));
+    bottom: 1rem;
+    padding: 2rem;
+    position: absolute;
+    right: 1rem;
+    width: 55%;
+    h3.m-featureSlider__title {
+      color: $white;
     }
 
-    .m-featureSlider__content {
-      background: linear-gradient(135deg, rgba(0,0,152,.8), rgba(0,0,0,.8));
-      bottom: 1rem;
-      padding: 2rem;
-      position: absolute;
-      right: 1rem;
-      width: 55%;  
-      
-      h3.m-featureSlider__title {
-        color: $white;
-      }
-
-      p {
-        color: $yellow; 
-      }
+    p {
+      color: $yellow;
     }
+  }
 }
