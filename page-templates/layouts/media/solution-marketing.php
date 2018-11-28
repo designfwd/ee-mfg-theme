@@ -12,8 +12,8 @@
       <h4 class="m-marketingBlock__body">
         <?php the_sub_field('solution_marketing_text'); ?>
       </h4>
-      <svg class="m-marketingBlock__decoration">
-        <path fill="none" stroke="yellow" stroke-width="4" d="M 0,32 L 32,0 L 64,32" />
+      <svg class="m-marketingBlock__decoration" viewBox="0 0 64 64">
+        <path fill="none" stroke="yellow" stroke-width="8" d="M 8,32 L 32,8 L 56,32" />
       </svg>
     </div>
   </div>

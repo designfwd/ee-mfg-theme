@@ -12,10 +12,18 @@
   }
 
   .o-supplementaryContent__title {
+    align-items: center;
+    display: flex;
+    flex: 0 1 100%;
+    justify-content: center;
     margin: 0;
 
     @media(min-width: 640px) {
-      color: $black;
+    }
+
+    .o-supplementaryContent__topDecoration {
+      flex: 0 0 25px;
+      margin: 0 0 0 2rem;
     }
   }
 

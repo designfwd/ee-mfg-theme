@@ -1,0 +1,42 @@
+.m-industrySlider {
+  margin-top: 3rem;
+  position: relative;
+  
+  .m-industrySlider__image {
+    width: 100%;
+  }
+
+  .m-industrySlider__content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 40%;
+
+    .m-industrySlider__title {
+      background-color: rgba(26,42,52,.8);
+      color: $white;
+      font-size: 2.5rem;
+      line-height: 3rem;
+      margin: 0;
+      padding: 1rem;
+
+      .m-industrySlider__flag {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 5%;
+      }
+    }
+
+    p {
+      background-color: rgba(255,255,255,.8);
+      color: #333;
+      line-height: 1.4rem;
+      padding: 0.2rem 1rem;
+    }
+  }
+}

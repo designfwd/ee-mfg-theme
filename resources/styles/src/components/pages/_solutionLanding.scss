@@ -7,6 +7,12 @@
   padding-top: 1rem;
 }
 
+.solutionLanding__marketingBlocks {
+  margin: 0 auto 2rem;
+  max-width: 1300px;
+  width: 95%;
+}
+
 .solutionLanding__bodyContent {
   margin: 0 auto;
   max-width: 1000px;
@@ -19,6 +25,7 @@
   margin: 0 auto;
   padding-bottom: 2rem;
 
+
   .caseStudies-wrapper-container {
     display: flex;
     flex-direction: row;
@@ -26,6 +33,8 @@
     justify-content: center;
     margin: 0 auto;
     max-width: 1300px;
+    width: 95%;
+
     .solutionLanding__caseStudies {
       flex: 0 1 40%;
     }
