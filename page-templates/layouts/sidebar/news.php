@@ -3,10 +3,10 @@
 
   <div class="o-sidebar__widget">
     <div class="m-sidebarTitle">
-      <svg class="m-sidebarTitle__flag">
-        <path fill="#FF0000" d="M 0,64 L 64,0 L 64,64" />
-      </svg>
       <h3 class="m-sidebarTitle__text">
+        <svg class="m-sidebarTitle__flag" viewBox="0 0 64 64">
+          <path fill="#FF0000" d="M 0,64 L 64,0 L 64,64" />
+        </svg>
         Most Recent
       </h3>
     </div>
@@ -34,11 +34,11 @@
 
   <div class="o-sidebar__widget">
     <div class="m-sidebarTitle">
-      <svg class="m-sidebarTitle__flag">
-        <path fill="#FF0000" d="M 0,64 L 64,0 L 64,64" />
-      </svg>
       <h3 class="m-sidebarTitle__text">
-        Categories
+        <svg class="m-sidebarTitle__flag" viewBox="0 0 64 64">
+          <path fill="#FF0000" d="M 0,64 L 64,0 L 64,64" />
+        </svg>
+        Categories     
       </h3>
     </div>
     <ul class="o-sidebar__list">

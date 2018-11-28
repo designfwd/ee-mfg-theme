@@ -56,14 +56,16 @@ h1.o-introContent__title {
  }
 
  h3,
- h3.m-sidebarTitle__text {
+ h3.m-sidebarTitle__text,
+ .m-sidebarTitle {
   color: $blue;
   font-size: 2rem;
   font-weight: $font-bold;
  }
 
  h3.m-sidebarTitle__text,
- h3.m-featureSlider__title {
+ h3.m-featureSlider__title,
+ .m-sidebarTitle {
   text-transform: uppercase;
  }
 
