@@ -368,9 +368,47 @@
             "endpoint": 0
         },
         {
+            "key": "field_5bfe0776619c5",
+            "label": "Title",
+            "name": "industry_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5bfe078c619c6",
+            "label": "Description",
+            "name": "industry_description",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 0,
+            "delay": 0
+        },
+        {
             "key": "field_5bd634e71786b",
             "label": "Slides",
-            "name": "industry_slides_copy",
+            "name": "industry_slides",
             "type": "repeater",
             "instructions": "",
             "required": 0,
@@ -390,7 +428,7 @@
                     "key": "field_5bd634e71786c",
                     "label": "Image",
                     "name": "industry_slide_image",
-                    "type": "text",
+                    "type": "image",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
@@ -399,11 +437,16 @@
                         "class": "",
                         "id": ""
                     },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": ""
+                    "return_format": "id",
+                    "preview_size": "thumbnail",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
                 },
                 {
                     "key": "field_5bd634e71786d",
@@ -484,5 +527,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1543354352
+    "modified": 1543375210
 }

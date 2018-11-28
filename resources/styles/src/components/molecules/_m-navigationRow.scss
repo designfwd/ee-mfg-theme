@@ -87,20 +87,15 @@
 .condensed {
 
   .m-navigationRow__link {
-
+    #menu-primary li ul {
+      top: 25px;
+    }
     a {
       font-size: .9rem;
       -webkit-transition: all 0.2s ease-in;
       -moz-transition: all 0.2s ease-in;
       -o-transition: all 0.2s ease-in;
       transition: all 0.2s ease-in;
-    }    
-  }
-}
-
-.condensed {
-
-  #menu-primary li ul {
-      top: 25px;
+    }
   }
 }
