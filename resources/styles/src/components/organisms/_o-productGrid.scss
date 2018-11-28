@@ -1,12 +1,11 @@
 .o-productGrid__headline {
+  align-items: center;
   display: flex;
   flex: 0 1 100%;
   justify-content: center;
 
   .o-productGrid__topDecoration {
-    align-self: center;
-    height: 30px;
-    width: 30px;
+    flex: 0 0 25px;
     margin: 0 0 0 2rem;
   }
 }

@@ -1,10 +1,34 @@
-.m-sidebarTitle__text {
-  display: flex;
-  position: relative;
+.solutionLanding__caseStudies {
+  .m-sidebarTitle__text {
+    align-items: flex-start;
+    display: flex;
+    justify-content: flex-start;
+    flex: 0 1 100%;
+    position: relative;
 
-  .m-sidebarTitle__flag {
-    align-self: flex-end;
-    height: 12px;
-    margin: 0 2rem 0 0;
+    .m-sidebarTitle__flag {
+      flex: 0 0 12px;
+      margin: 0 2rem 0 0;
+    }
+  }
+}
+
+.newsCategory__newsSidebar {
+
+ .m-sidebarTitle {
+   flex: 0 1 100%;
+
+    .m-sidebarTitle__text {
+      align-items: flex-start;
+      display: flex;
+      flex: 0 1 100%;
+      justify-content: flex-start;
+      position: relative;
+
+      .m-sidebarTitle__flag {
+        flex: 0 0 12px;
+        margin: 0 2rem 0 0;
+      }
+    }
   }
 }
