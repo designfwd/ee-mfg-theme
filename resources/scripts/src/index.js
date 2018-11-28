@@ -18,3 +18,4 @@ import './vendor/smoothscroll-polyfill';
  */
 import './modules/homepage';
 import './modules/site-wide';
+import './modules/solutionsLandingPage';

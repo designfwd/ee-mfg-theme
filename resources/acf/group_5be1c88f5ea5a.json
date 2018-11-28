@@ -287,28 +287,9 @@
             "mime_types": ""
         },
         {
-            "key": "field_5be1f546d7308",
-            "label": "Title",
-            "name": "solutions_capabilities_title",
-            "type": "text",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
-        },
-        {
-            "key": "field_5be1f587d730a",
-            "label": "Capability Rows",
-            "name": "solution_capability_rows",
+            "key": "field_5bfebf2ab3d1c",
+            "label": "Slideshow",
+            "name": "solutions_capabilities_slideshow",
             "type": "repeater",
             "instructions": "",
             "required": 0,
@@ -325,9 +306,28 @@
             "button_label": "",
             "sub_fields": [
                 {
-                    "key": "field_5be1f59ed730b",
-                    "label": "Text",
-                    "name": "solutions_capability_row_text",
+                    "key": "field_5bfebf46b3d1d",
+                    "label": "Title",
+                    "name": "solutions_capabilities_slide_title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5bfebf52b3d1e",
+                    "label": "Description",
+                    "name": "solutions_capabilities_slide_description",
                     "type": "wysiwyg",
                     "instructions": "",
                     "required": 0,
@@ -696,5 +696,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1543292985
+    "modified": 1543421821
 }
