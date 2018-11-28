@@ -1,5 +1,11 @@
 <?php // Industry slider for use in the body of a page ?>
-<h2><?php the_field('industry_title'); ?></h2>
+<h2><?php the_field('industry_title'); ?>
+  <svg class="m-industrySlider__topDecoration" viewBox="0 0 100 100">
+    <path fill="none" stroke="black" stroke-width="8" d="M 0,0 L 30,25 L 60,0" />
+    <path fill="none" stroke="black" stroke-width="8" d="M 0,30 L 30,55 L 60,30" />
+    <path fill="none" stroke="black" stroke-width="8" d="M 0,60 L 30,85 L 60,60" />
+  </svg>
+</h2>
   <div class="o-industrySlider__description">
     <?php the_field('industry_description'); ?>
   </div>
@@ -16,6 +22,9 @@
         <div class="m-industrySlider__content">
           <h3 class="m-industrySlider__title">
             <?php the_sub_field('industry_slide_title'); ?>
+              <svg class="m-industrySlider__flag" viewBox="0 0 64 64">
+                <path fill="#FF0000" d="M 0,0 L 0,64 L 64,64" />
+              </svg>
           </h3>
           <?php the_sub_field('industry_slide_text'); ?>
 
