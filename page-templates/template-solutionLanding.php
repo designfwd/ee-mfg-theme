@@ -32,7 +32,7 @@
           <?php get_partial('media', 'solution-marketing'); ?>
         </section>
         <section id="solutionCapabilities" class="solutionLanding__solutionCapabilities">
-          <?php get_partial('media', 'solution-capabilities'); ?>
+          <?php get_partial('slider', 'solution-capabilities'); ?>
         </section>
         <section id="caseStudies-wrapper"> <section class="caseStudies-wrapper-container">
           <section id="caseStudies" class="solutionLanding__caseStudies">
