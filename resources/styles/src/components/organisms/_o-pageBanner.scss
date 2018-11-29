@@ -1,12 +1,14 @@
 .o-pageBanner {
   display: flex;
   justify-content: flex-end;
+  margin: 0 auto;
+  max-width: 1300px;
   padding-bottom: 3rem;
   width: 100%;
 
   .o-pageBanner__image {
-    height: 95%;
+    height: 100%;
     margin: 0 auto;
-    width: 95%;
+    width: 100%;
   }
 }

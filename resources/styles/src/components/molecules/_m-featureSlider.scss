@@ -18,6 +18,10 @@
       width: 95%;
     }
 
+    @media(max-width: 600px) {
+      background: linear-gradient(135deg, rgba(0,0,152,.5), rgba(0,0,0,.5));
+    }
+
     h3.m-featureSlider__title {
       color: $white;
     }

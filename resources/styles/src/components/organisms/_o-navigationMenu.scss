@@ -13,6 +13,12 @@
   width: 95%;
   z-index: 4;
 
+  @media(max-width: 768px) {
+    height: 60px;
+    position: relative;
+    width: 100%;
+  }
+
   .o-navigationMenu__link {
     align-self: flex-start;
     background-color: $blue;
@@ -28,6 +34,10 @@
       -moz-transition: all 0.5s ease-in;
       -o-transition: all 0.5s ease-in;
       transition: all 0.5s ease-in;
+
+      @media(max-width: 768px) {
+        max-width: 200px;
+      }
     }
   }
 

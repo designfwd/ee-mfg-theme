@@ -3,9 +3,14 @@
 
   .m-capabilitiesBlock__num {
     align-content: center;
+    align-self: center;
+    color: $white !important;
     display: flex;
+    font-size: 3rem;
+    font-weight: $font-bold;
     flex: 0 1 20%;
     justify-content: center;
+    padding: 0 1.5rem 0 1rem;
   }
 
   .m-capabilitiesBlock__textBlock {

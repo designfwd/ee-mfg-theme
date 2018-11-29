@@ -3,7 +3,7 @@
   justify-content: center;
   padding-bottom: 1rem;
   max-width: 1300px;
-  width: 95%;
+  width: 90%;
 
   .o-introContent__before {
     align-items: flex-start;
@@ -39,7 +39,7 @@
     .o-introContent__title {
       align-items: center;
       display: flex;
-      flex: 0 1 100%;
+      flex: 0 1 90%;
       justify-content: center;
 
       @media(max-width: 600px) {

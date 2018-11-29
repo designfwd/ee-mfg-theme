@@ -4,10 +4,15 @@
 
   .m-marketingBlock__headline {
     color: $white;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     line-height: 1.7rem;
     margin: 0;
     padding: 1rem 0 0;
+
+    @media(max-width: 700px) {
+      font-size: 1.3rem;
+      line-height: 1.4rem;
+    }
   }
 
   .m-marketingBlock__body {
@@ -20,10 +25,19 @@
     @media(max-width: 800px) {
       width: 90%;
     }
+
+    @media(max-width: 700px) {
+      font-size: 1.3rem;
+      line-height: 1.4rem;
+    }
   }
 
   .m-marketingBlock__decoration {
     height: 1rem;
     margin: 1rem 0;
+
+    @media(max-width: 1000px) {
+      margin: 0;
+    }
   }
 }

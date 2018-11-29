@@ -14,7 +14,7 @@
   }
 }
 .gfield_label {
-  display: none;
+  display: none !important;
 }
 
 .ginput_container {
@@ -23,10 +23,27 @@
 
   .medium,
   .large {
-    width: 100%;
+    width: 100% !important;
   }
 }
 
 .gform_validation_container {
   display: none;
+}
+
+body .gform_wrapper ul li.gfield {
+  margin-top: 5px !important;
+}
+
+.gform_wrapper input.large,
+.gform_wrapper input.medium,
+.gform_wrapper input.small,
+.gform_wrapper select.large,
+.gform_wrapper select.medium,
+.gform_wrapper select.small {
+  width: 100% !important;
+}
+
+.gform_title {
+  display: none !important;
 }

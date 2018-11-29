@@ -1,8 +1,22 @@
+.generalLanding__pageBanner {
+  margin: 0 auto;
+  max-width: 1300px;
+  padding-top: 1rem;
+}
+
 .generalLanding {
 
   .generalLanding__intro {
     padding-top: 10rem;
     width: 100%;
+
+    @media(max-width: 800px) {
+      padding-top: 8rem;
+    }
+
+    @media(max-width: 768px) {
+      padding-top: 1.5rem;
+    }
   }
 
   .generalLanding__main {
@@ -23,7 +37,7 @@
   .generalLanding__bodyContent {
     margin: 0 auto;
     max-width: 1000px;
-    width: 95%;
+    width: 90%;
   }
 }
 
