@@ -1,20 +1,22 @@
 .m-footerSocial {
   align-items: center;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 
-  @media(min-width: 768px) {
-    justify-content: flex-start;
+  @media(max-width: 600px) {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .m-footerSocial__button {
     min-width: 200px;
-    padding-left: 5%;
+    padding-left: 0;
     padding-right: 1rem;
-    width: 35%;
+    flex: 0 1 35%;
 
-    @media(min-width: 768px) {
-      padding-left: 0;
+    @media(max-width: 600px) {
+      padding-right: 0rem;
+      flex: 0 1 100%;
     }
   }
 

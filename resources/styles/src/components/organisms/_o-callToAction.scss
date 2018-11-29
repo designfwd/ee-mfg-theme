@@ -40,6 +40,10 @@
       position: relative;
       width: 95%;
       z-index: 1;
+
+      @media(max-width: 600px) {
+        display: none;
+      }
     }
 
     .o-callToAction__card {
@@ -51,6 +55,16 @@
       top: -1rem;
       width: 35%;
       z-index: 2;
+
+      @media(max-width: 800px) {
+        width: 45%;
+      }
+
+      @media(max-width: 600px) {
+        left: auto;
+        position: relative;
+        width: 95%;
+      }
     }
   }
 }

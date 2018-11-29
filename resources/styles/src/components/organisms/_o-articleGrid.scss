@@ -1,5 +1,6 @@
 .o-articleGrid {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin: auto;
   max-width: 1300px;
@@ -7,5 +8,9 @@
 
   .o-articleGrid__article {
     flex: 0 1 31%;
+
+    @media(max-width: 860px) {
+      flex: 0 1 48%;
+    }
   }
 }

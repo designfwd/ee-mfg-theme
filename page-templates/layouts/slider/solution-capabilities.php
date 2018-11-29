@@ -2,6 +2,11 @@
 <div class="o-capabilitiesBlock o-capabilitesBlock--solution">    
 <div class="o-capabilitiesBlock__block"> 
   <img class="o-capabilitesBlock__image" src="<?php echo get_acf_image( get_field('solutions_capabilities_background_image'), '2560w', 'http://via.placeholder.com/2677x1271?text=call+to+action+background'); ?>" />   
+  <div class="o-capabilitiesSlider__wrapper"> 
+    <svg class="a-rowLabel__flag" viewBox="0 0 64 64">
+      <path fill="#FF0000" d="M 0,0 L 0,64 L 64,64" />
+    </svg>
+    <h2 class="o-supplementaryContent__title">Capabilities</h2>
   <div class="o-capabilitiesSlider"> 
     <?php
       if( have_rows('solutions_capabilities_slideshow') ):
@@ -25,6 +30,7 @@
       endif;
     ?>    
   </div>
+</div>
 </div>
 
 

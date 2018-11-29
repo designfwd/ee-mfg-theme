@@ -1,0 +1,14 @@
+.m-capabilitiesBlock__row {
+  display: flex !important;
+
+  .m-capabilitiesBlock__num {
+    align-content: center;
+    display: flex;
+    flex: 0 1 20%;
+    justify-content: center;
+  }
+
+  .m-capabilitiesBlock__textBlock {
+    flex: 0 1 80%;
+  }
+}

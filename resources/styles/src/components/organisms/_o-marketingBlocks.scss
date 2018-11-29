@@ -12,6 +12,11 @@
     padding: 3rem 10% 2rem;
     text-align: center;
     width: 80%;
+
+    @media(max-width: 800px) {
+      padding: 3rem 5% 2rem;
+      width: 95%;
+    }
   }
 
   .o-marketingBlocks__block {

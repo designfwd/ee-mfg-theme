@@ -1,11 +1,11 @@
-.o-sidebar.o-sidebar--caseStudies {
+.o-sidebar.o-sidebar--caseStudies,
+.o-sidebar.o-sidebar--resources {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
   flex: 0 1 100%;
-  
   .o-sidebar__widget {
     align-items: center;
     display: flex;

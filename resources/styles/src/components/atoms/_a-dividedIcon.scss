@@ -11,7 +11,8 @@
   &.a-dividedIcon--footer {
     border: $border-white;
     color: $black;
-    padding: .25rem;
+    padding: .5rem 2rem;
+    text-align: center;
 
     .a-dividedIcon__icon {
       color: $white;
@@ -19,8 +20,7 @@
   }
 
   .a-dividedIcon__text {
-    padding-left: 1rem;
-    width: calc(100% - 2rem);
+    margin: 0 auto;
   }
 
   .a-dividedIcon__icon {

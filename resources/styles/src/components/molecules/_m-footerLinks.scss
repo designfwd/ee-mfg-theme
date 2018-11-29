@@ -3,25 +3,26 @@
   .m-footerLinks__list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     list-style-type: none;
     margin: 0;
-    padding: 1rem 1rem 1rem 0rem;
+    padding: 1rem 0rem;
 
-    @media(min-width: 768px) {
-      padding: 1rem 0 1rem 0rem;
-      justify-content: flex-start;
+    @media(max-width: 600px) {
+      justify-content: center;
     }
 
     .m-footerLinks__item {
-      font-size: .8rem;
-      font-weight: $font-bold;
       margin: .25rem 0;
       padding: 0 .45rem;
       text-align: center;
 
       a {
         color: $black;
+        font-size: 1rem;
+        font-weight: $font-semibold;
+        letter-spacing: .06rem;
+        text-transform: uppercase;
       }
 
       .m-footerLinks__anchor {

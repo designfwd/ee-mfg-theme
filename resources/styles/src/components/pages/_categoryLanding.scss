@@ -2,5 +2,9 @@
 
   .categoryLanding__intro {
     padding-top: 10rem;
+
+    @media(max-width: 800px) {
+      padding-top: 8rem;
+    }
   }
 }

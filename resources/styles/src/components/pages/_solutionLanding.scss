@@ -1,5 +1,9 @@
 .solutionLanding__intro {
   padding-top: 10rem;
+
+  @media(max-width: 800px) {
+    padding-top: 8rem;
+  }
 }
 
 .solutionLanding__featuredImage {
@@ -27,6 +31,7 @@
 
 
   .caseStudies-wrapper-container {
+    align-items: flex-start;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
