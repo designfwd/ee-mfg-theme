@@ -6,9 +6,9 @@
     <path fill="none" stroke="black" stroke-width="8" d="M 0,60 L 30,85 L 60,60" />
   </svg>
 </h2>
-  <div class="o-industrySlider__description">
-    <?php the_field('industry_description'); ?>
-  </div>
+<!--<div class="o-industrySlider__description"> 
+    <?php //the_field('industry_description'); ?>
+  </div>-->
 <div class="o-industrySlider">
   <?php
   if(have_rows('industry_slides')) :

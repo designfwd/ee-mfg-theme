@@ -14,6 +14,11 @@
   }
 
   .m-capabilitiesBlock__textBlock {
-    flex: 0 1 80%;
+    flex: 0 1 100%;
+    padding: 0px 4rem;
+
+    ul {
+      margin: 0 auto;
+    }
   }
 }

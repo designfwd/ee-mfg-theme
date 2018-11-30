@@ -45,7 +45,8 @@ h1.o-introContent__title {
  h2.o-productGrid__headline,
  h2.o-videoContent__headline,
  h2.o-capabilitiesBlock__title,
- .homepage__industrySlider h2 {
+ .homepage__industrySlider h2,
+ .o-callToAction__description span {
   color: $blue;
   font-size: 4.6rem;
   font-weight: $font-bold;
@@ -69,6 +70,10 @@ h1.o-introContent__title {
   @media(max-width: 600px) {
     padding: 3rem 0 1rem;
   }
+ }
+
+ h2.o-capabilitiesBlock__title {
+  padding: 3rem 0rem 2rem;
  }
 
  h2.a-rowLabel__title,
@@ -95,6 +100,7 @@ h1.o-introContent__title {
   color: $blue;
   font-size: 2rem;
   font-weight: $font-bold;
+  line-height: 2rem;
  }
 
  h3.m-footerLink__title,

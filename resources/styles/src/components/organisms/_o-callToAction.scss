@@ -23,10 +23,19 @@
   }
 
   .o-callToAction__description {
+    color: $blue;
+    font-size: 2.4rem;
+    font-weight: $font-semibold;
+    line-height: 2.3rem;
     margin: 0 auto;
     max-width: 800px;
     padding: 1rem 0 3rem;
     text-align: center;
+    width: 95%;
+
+    p {
+      margin: 0px;
+    }
   }
 
   .o-callToAction__mediaBlock {

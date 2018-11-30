@@ -1,4 +1,4 @@
-<h2 class="o-capabilitiesBlock__title">Capabilities
+<h2 class="o-capabilitiesBlock__title"> <?php the_field('solutions_capabilities_title'); ?>
   <svg class="o-capabilitiesBlock__topDecoration" viewBox="0 0 100 100">
     <path fill="none" stroke="black" stroke-width="8" d="M 0,0 L 30,25 L 60,0" />
     <path fill="none" stroke="black" stroke-width="8" d="M 0,30 L 30,55 L 60,30" />
@@ -17,7 +17,7 @@
         while( have_rows('solutions_capabilities_slideshow') ): the_row();
     ?>
     <div class="m-capabilitiesBlock__row">
-      <div class="m-capabilitiesBlock__num"><?php echo $i; ?>  </div>
+     <!-- <div class="m-capabilitiesBlock__num"><?php // echo $i; ?>  </div> -->
       <div class="m-capabilitiesBlock__textBlock">
         <h3 class="m-capabilitiesBlock__headline">
           <?php the_sub_field('solutions_capabilities_slide_title'); ?>
