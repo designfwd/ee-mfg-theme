@@ -97,6 +97,13 @@ h1.o-introContent__title {
   font-weight: $font-bold;
  }
 
+ h3.m-footerLink__title,
+ h3.o-categoryLinks__title {
+  font-size: 1.5rem;
+  padding: .8rem 1rem;
+  width: auto;
+ }
+
  h3.m-capabilitiesBlock__headline {
   color: $white;
  }
