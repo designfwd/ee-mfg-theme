@@ -30,5 +30,10 @@
     &:last-child {
       border-right: none;
     }
+
+    @media(max-width: 500px) {
+      border-right: none;
+      width: 100%;
+    }
   }
 }

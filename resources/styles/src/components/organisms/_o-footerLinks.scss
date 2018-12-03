@@ -23,6 +23,13 @@
       }
     }
 
+    @media(max-width: 600px) {
+
+      &:first-of-type {
+        padding-top: 0rem;
+      }
+    }
+
     &.o-footerLinks__block--newsletter {
       align-items: center;
       background-color: $red;

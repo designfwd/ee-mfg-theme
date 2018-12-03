@@ -14,8 +14,8 @@
     padding: .5rem 2rem;
     text-align: center;
 
-    .a-dividedIcon__icon {
-      color: $white;
+    &:hover {
+      background-color: $white;
     }
   }
 

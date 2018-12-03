@@ -15,11 +15,23 @@
     width: 45%;
 
     @media(max-width: 800px) {
+      background: linear-gradient(135deg, rgba(0,0,152,.5), rgba(0,0,0,.5));
+      right: 2.5%;
       width: 95%;
     }
 
+    @media(max-width: 700px) {
+      padding: 1rem;
+    }
+
     @media(max-width: 600px) {
-      background: linear-gradient(135deg, rgba(0,0,152,.5), rgba(0,0,0,.5));
+      bottom: 1rem;
+    }
+
+    @media(max-width: 500px) {
+      bottom: 0rem;
+      right: 0%;
+      width: 100%;
     }
 
     h3.m-featureSlider__title {
@@ -29,6 +41,7 @@
     p {
       color: $yellow;
       line-height: 1.4rem;
+      margin: 0px;
     }
   }
 }

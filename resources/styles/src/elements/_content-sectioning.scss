@@ -34,9 +34,14 @@ h1.o-introContent__title {
     line-height: 4.6rem;
   }
 
-  @media(max-width: 500px) {
+  @media(max-width: 600px) {
     font-size: 3.8rem;
     line-height: 3.4rem;
+  }
+
+  @media(max-width: 500px) {
+    font-size: 3rem;
+    line-height: 2.8rem;
   }
 }
 
@@ -56,7 +61,7 @@ h1.o-introContent__title {
   padding: 4rem 0rem 2rem;
   text-align: center;
   text-transform: uppercase;
-  width: 95%;
+  width: 80%;
 
   @media(min-width: 1500px) {
     max-width: 80%;
@@ -69,6 +74,12 @@ h1.o-introContent__title {
 
   @media(max-width: 600px) {
     padding: 3rem 0 1rem;
+    width: 90%;
+  }
+
+  @media(max-width: 500px) {
+    font-size: 3rem;
+    line-height: 2.8rem;
   }
  }
 
@@ -106,7 +117,7 @@ h1.o-introContent__title {
  h3.m-footerLink__title,
  h3.o-categoryLinks__title {
   font-size: 1.5rem;
-  padding: .8rem 1rem;
+  padding: .5rem 1rem;
   width: auto;
  }
 
@@ -120,10 +131,17 @@ h1.o-introContent__title {
   text-transform: uppercase;
  }
 
- h3.m-featureSlider__title {
+ h3.m-featureSlider__title,
+ .o-featuredImage .o-featuredImage__content span {
   font-size: 3rem;
+  font-weight: $font-bold;
   line-height: 2.8rem;
   margin: 0px;
+
+  @media(max-width: 700px) {
+    font-size: 2rem;
+    line-height: 2.2rem;
+  }
  }
 
  h3.o-callToAction__titleText {

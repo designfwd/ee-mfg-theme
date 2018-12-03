@@ -23,7 +23,7 @@
 
 .solutionLanding__marketingBlocks {
   margin: 0 auto 2rem;
-  max-width: 1300px;
+  max-width: 1000px;
   width: 95%;
 }
 
@@ -58,16 +58,28 @@
 
     .solutionLanding__caseStudies {
       flex: 0 1 40%;
+
+      @media(max-width: 600px) {
+        flex: 0 1 100%;
+      }
     }
 
     .solutionLanding__resources {
       flex: 0 1 40%;
+
+      @media(max-width: 500px) {
+        flex: 0 1 100%;
+      }
     }
   }
 }
 
 .solutionLanding__productGrid {
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 1300px;
   width: 95%;
+
+  @media(max-width: 900px) {
+    width: 100%;
+  }
 }
