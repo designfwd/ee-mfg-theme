@@ -33,7 +33,6 @@
 
   .o-introContent__content {
     color: $light-blue;
-    max-width: 700px;
     text-align: center;
 
     .o-introContent__title {
@@ -58,11 +57,13 @@
     .o-introContent__paragraph {
       font-weight: $font-semibold;
       justify-content: center;
+      margin: 0 auto;
+      max-width: 700px;
       padding-top: .5rem;
 
-       ul {
-        text-align: left;
-       }
+      ul {
+       text-align: left;
+      }
     }
   }
 }
