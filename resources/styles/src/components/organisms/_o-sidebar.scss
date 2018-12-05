@@ -67,10 +67,16 @@
   width: 100%;
 
   .o-sidebar__item {
-    padding-bottom: 10px;
 
     a {
       color: $black;
+      display: block;
+      padding: 5px;
+
+      &:hover {
+        background-color: $blue;
+        color: $white;
+      }
     }
   }
 }

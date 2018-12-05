@@ -12,5 +12,10 @@
     @media(max-width: 860px) {
       flex: 0 1 48%;
     }
+
+    @media(max-width: 600px) {
+      flex: 0 1 100%;
+      margin-top: 1rem;
+    }
   }
 }
