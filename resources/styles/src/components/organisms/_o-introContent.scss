@@ -3,7 +3,7 @@
   justify-content: center;
   padding-bottom: 1rem;
   max-width: 1300px;
-  width: 95%;
+  width: 90%;
 
   .o-introContent__before {
     align-items: flex-start;
@@ -33,13 +33,12 @@
 
   .o-introContent__content {
     color: $light-blue;
-    max-width: 700px;
     text-align: center;
 
     .o-introContent__title {
       align-items: center;
       display: flex;
-      flex: 0 1 100%;
+      flex: 0 1 90%;
       justify-content: center;
 
       @media(max-width: 600px) {
@@ -48,7 +47,8 @@
 
       .o-introContent__decoration {
         flex: 0 0 25px;
-        margin: 0 0 0 2rem;
+        margin: 0 -40px 0 40px;
+
         @media(max-width: 600px) {
           margin: 10px 0 0;
         }
@@ -58,7 +58,13 @@
     .o-introContent__paragraph {
       font-weight: $font-semibold;
       justify-content: center;
+      margin: 0 auto;
+      max-width: 700px;
       padding-top: .5rem;
+
+      ul {
+       text-align: left;
+      }
     }
   }
 }

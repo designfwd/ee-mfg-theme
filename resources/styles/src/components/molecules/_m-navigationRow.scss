@@ -14,9 +14,9 @@
       color: #555;
       font-size: 1rem;
       font-weight: $font-semibold;
-      letter-spacing: .08rem;
+      letter-spacing: .06rem;
       line-height: 1rem;
-      padding: 0 .65rem;
+      padding: .75rem .65rem;
       text-transform: uppercase;
       -webkit-transition: all 0.2s ease-in;
       -moz-transition: all 0.2s ease-in;
@@ -70,7 +70,7 @@
   position: relative;
 
   &:hover ul {
-    background-color: #fff;
+    background: rgba(255,255,255,.7);
     display: block;
     left: 0px;
     padding: 0px;
@@ -79,19 +79,25 @@
     width: 250px;
   }
 
-  ul li {
-    padding-bottom: 8px;
+  ul {
+
+    a {
+      width: 100%;
+    }
   }
 }
 
 .condensed {
 
-  .m-navigationRow__link {
-    #menu-primary li ul {
+  #menu-primary li,
+  #menu-top {
+
+    &:hover ul {
       top: 25px;
     }
+
     a {
-      font-size: .9rem;
+      padding: .3rem .65rem;
       -webkit-transition: all 0.2s ease-in;
       -moz-transition: all 0.2s ease-in;
       -o-transition: all 0.2s ease-in;

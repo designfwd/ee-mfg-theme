@@ -73,6 +73,25 @@
             "endpoint": 0
         },
         {
+            "key": "field_5c056fd20ad5a",
+            "label": "Text",
+            "name": "featured_solution_image_text",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
             "key": "field_5be1c9751ddf3",
             "label": "Image",
             "name": "featured_solution_image",
@@ -261,6 +280,25 @@
             },
             "placement": "left",
             "endpoint": 0
+        },
+        {
+            "key": "field_5c01ae680c6ee",
+            "label": "Title",
+            "name": "solutions_capabilities_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
         },
         {
             "key": "field_5be1f557d7309",
@@ -696,5 +734,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1543421821
+    "modified": 1543860529
 }

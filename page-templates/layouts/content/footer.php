@@ -20,7 +20,7 @@
       <div class="m-footerSocial__button">
         <a class="a-dividedIcon a-dividedIcon--footer" href="/contact-us">
           <span class="a-dividedIcon__text">Contact Us</span>
-          <span class="a-dividedIcon__icon">></span>
+          <span class="a-dividedIcon__icon"></span>
         </a>
       </div>
     <?php
@@ -69,7 +69,6 @@
           <a class="m-footerContact__address" href="#">
           <?php the_sub_field('footer_location_address'); ?>
           </a>
-          <span class="m-footerContact__divider">/</span>
           <a class="m-footerContact__phone" href="tel:<?php the_sub_field('footer_location_phone'); ?>">            
           <?php the_sub_field('footer_location_phone'); ?>
           </a>
