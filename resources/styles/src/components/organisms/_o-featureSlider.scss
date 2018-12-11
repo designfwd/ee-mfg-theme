@@ -5,3 +5,10 @@
 .slick-slide {
   line-height: 0px;
 }
+
+.slick-slide,
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+  transition-delay: 300ms;
+}
