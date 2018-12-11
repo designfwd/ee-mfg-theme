@@ -1,6 +1,6 @@
 <?php // Introductory paragraph content
   if(is_single()) :
-    $title = the_title();
+    $title = get_the_title();
   else:
     $title = get_field('intro_title');
   endif;
