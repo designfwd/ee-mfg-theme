@@ -11,11 +11,6 @@
       </h3>
     </div>
     <ul class="o-sidebar__list">
-      <?php
-        if ( get_field('solution_case_studies_title') ) : 
-          echo get_field('solution_case_studies_title'); 
-        endif;        
-      ?>
       <?php if ( have_rows('solution_case_studies') ) : ?>      
         <?php while( have_rows('solution_case_studies') ) : the_row(); ?>      
           <li class="o-sidebar__item">

@@ -12,6 +12,7 @@ require 'helpers/get-svg.php';
 require 'helpers/picsum-img-url.php';
 require 'helpers/placeholder-img-url.php';
 require 'helpers/image-helpers.php';
+require 'helpers/search.php';
 
 
 /**

@@ -20,10 +20,35 @@
   .m-capabilityBlock__description {
     color: #333;
     margin: 2rem;
+
+    @media(max-width: 640px) {
+      margin: 1rem 2rem 2rem;
+    }
   }
 
   .m-capabilityBlock__mediaBlock {
     overflow: hidden;
+
+    &:after {
+      content: '\A';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: rgba(1,0,102,0.5);
+      opacity: 0;
+      transition: all 1s;
+      -webkit-transition: all 1s;
+      z-index: 1;
+    }
+
+    &:hover {
+
+      &:after {
+        opacity: 1;
+      }
+    }
 
     .m-capabilityBlock__image {
       transform: scale(1);
@@ -43,20 +68,34 @@
       position: relative;
       width: calc(100% - 3.2rem);
       z-index: 1;
+
+      @media(max-width: 640px) {
+        width: 100%;
+      }
     }
 
     .m-capabilityBlock__label {
-      background-color: $black-80;
+      background: linear-gradient(135deg, rgba(0,0,0,.8), rgba(0,0,152,.8), rgba(0,0,0,.8));
       margin: 0;
       padding: 0;
       position: absolute;
-      left: 20%;
+      left: auto;
       bottom: 0px;
+      right: 0px;
       width: 80%;
       z-index: 2;
 
+      @media(max-width: 900px) {
+        width: 100%;
+      }
+
       &.m-capabilityBlock__label--reverse {
         left: 0;
+        right: auto;
+
+        @media(max-width: 900px) {
+          width: 100%;
+        }
       }
     }
   }

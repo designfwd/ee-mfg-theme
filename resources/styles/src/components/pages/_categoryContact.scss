@@ -2,6 +2,14 @@
 
   .categoryContact__intro {
     padding-top: 10rem;
+
+    @media(max-width: 800px) {
+      padding-top: 8rem;
+    }
+
+    @media(max-width: 768px) {
+      padding-top: 1.5rem;
+    }
   }
 }
 
@@ -12,13 +20,29 @@
   flex-wrap: wrap;
   margin: 0 auto;
   max-width: 1000px;
-  width:95%;
+  width: 95%;
 }
 
 .categoryContact__contactForm {
   flex: 0 1 70%;
+  padding-right: 3rem;
+
+  @media(max-width: 780px) {
+    flex: 0 1 100%;
+    padding-right: 0rem;
+  }
 }
 
 .categoryContact__contactLinks {
   flex: 0 1 30%;
+
+  @media(max-width: 780px) {
+    flex: 0 1 100%;
+  }
+}
+
+.categoryContact__categoryLinks {
+  margin: 0 auto;
+  max-width: 1300px;
+  width: 95%;
 }

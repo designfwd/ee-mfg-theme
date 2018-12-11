@@ -31,6 +31,9 @@
         <section id="industrySlider" class="homepage__industrySlider">
           <?php get_partial('slider', 'industry'); ?>
         </section>
+        <section id="videoContent" class="homepage__videoContent">
+          <?php get_partial('media', 'video-content'); ?>
+        </section>
       </main>
 
       <footer id="footer">

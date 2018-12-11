@@ -20,7 +20,7 @@
       <div class="m-footerSocial__button">
         <a class="a-dividedIcon a-dividedIcon--footer" href="/contact-us">
           <span class="a-dividedIcon__text">Contact Us</span>
-          <span class="a-dividedIcon__icon">></span>
+          <span class="a-dividedIcon__icon"></span>
         </a>
       </div>
     <?php
@@ -43,7 +43,7 @@
             $link = get_sub_field('footer_social_youtube', 'option');
           }
           else if(get_sub_field('footer_social_instagram', 'option')) {
-            $icon = return_svg('social-facebook'); 
+            $icon = return_svg('social-instagram'); 
             $link = get_sub_field('footer_social_instagram', 'option');
           }                
     ?>
@@ -63,15 +63,14 @@
     ?>
       <div class="m-footerContact__option">
         <h5 class="m-footerContact__title">
-          <?php the_sub_field('footer_location_title'); ?>
+          <?php the_sub_field('footer_location_title', 'option'); ?>
         </h5>
         <div class="m-footerContact__location">
           <a class="m-footerContact__address" href="#">
-          <?php the_sub_field('footer_location_address'); ?>
+          <?php the_sub_field('footer_location_address', 'option'); ?>
           </a>
-          <span class="m-footerContact__divider">/</span>
-          <a class="m-footerContact__phone" href="tel:<?php the_sub_field('footer_location_phone'); ?>">            
-          <?php the_sub_field('footer_location_phone'); ?>
+          <a class="m-footerContact__phone" href="tel:<?php the_sub_field('footer_location_phone', 'option'); ?>">            
+          <?php the_sub_field('footer_location_phone', 'option'); ?>
           </a>
         </div>
       </div>

@@ -14,7 +14,7 @@
   }
 }
 .gfield_label {
-  display: none;
+  display: none !important;
 }
 
 .ginput_container {
@@ -23,10 +23,74 @@
 
   .medium,
   .large {
-    width: 100%;
+    width: 100% !important;
   }
 }
 
 .gform_validation_container {
   display: none;
+}
+
+body .gform_wrapper ul li.gfield {
+  margin-top: 5px !important;
+}
+
+.gform_wrapper input.large,
+.gform_wrapper input.medium,
+.gform_wrapper input.small,
+.gform_wrapper select.large,
+.gform_wrapper select.medium,
+.gform_wrapper select.small {
+  width: 100% !important;
+}
+
+.gform_title {
+  display: none !important;
+}
+
+.gform_wrapper {
+  margin: 0 !important;
+  width: 100%;
+}
+
+.gform_wrapper .gform_footer {
+  margin: 0px !important;
+  padding: 0px !important;
+  text-align: center;
+  width: 100%;
+
+  input[type="submit"] {
+    font-weight: $font-bold !important;
+    margin: 5px 0px !important;
+
+    &:hover {
+      background-color: $yellow;
+      -webkit-transition: .3s;
+      -moz-transition: .3s;
+      -o-transition: .3s;
+      transition: .3s;
+    }
+  }
+}
+
+.o-footerLinks__block--newsletter {
+
+  #input_1_1 {
+    background-color: transparent;
+    border: 1px solid #e2e2e2;
+    color: #e2e2e2;
+  }
+
+  input[type="submit"] {
+    padding: .5rem 3rem !important;
+    width: 90% !important;
+  }
+
+  #gform_fields_1 {
+
+    li {
+      padding-right: 5% !important;
+      padding-left: 5% !important;
+    }
+  }
 }

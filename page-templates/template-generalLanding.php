@@ -25,9 +25,6 @@
       </header>
 
       <main id="main" class="generalLanding__main">
-        <section id="featuredImage" class="generalLanding__featuredImage">
-          <?php get_partial('media', 'feature-general'); ?>
-        </section>
         <section id="bodyContent" class="generalLanding__bodyContent">
           <?php get_partial('content', 'general'); ?>
         </section>

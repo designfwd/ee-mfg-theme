@@ -1,7 +1,8 @@
 .o-categoryLinks {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-  height: 23vw;
+  padding-top: 3rem;
   width: 100%;
 
   .o-categoryLinks__link {
@@ -10,7 +11,33 @@
     display: flex;
     flex: 0 1 32%;
     height: 100%;
+    line-height: 0px;
     position: relative;
+
+    &:after {
+      content: '\A';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: rgba(1,0,102,0.5);
+      opacity: 0;
+      transition: all 1s;
+      -webkit-transition: all 1s;
+      z-index: 1;
+    }
+
+    &:hover {
+
+      &:after {
+        opacity: 1;
+      }
+    }
+
+    @media(max-width: 600px) {
+      flex: 0 1 100%;
+    }
   }
 
   .o-categoryLinks__title {
@@ -18,9 +45,7 @@
     bottom: 0;
     color: $white;
     left: 1rem;
-    padding: 1rem;
     position: absolute;
-    width: 60%;
     z-index: 2;
   }
 }

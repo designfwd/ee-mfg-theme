@@ -2,17 +2,59 @@
 
   .homepage__featureSlider {
     background-color: $grey;
-    min-height: 80vh;
   }
 
   .homepage__industrySlider {
-    background-color: $grey;
-    min-height: 80vh;
+
+    h2 {
+      display: flex;
+      flex: 0 1 100%;
+      justify-content: center;
+      align-items: center;
+
+      .m-industrySlider__topDecoration {
+        flex: 0 0 25px;
+        margin: 0 -40px 0 40px;
+
+        path {
+          width: 100%;
+        }
+
+        @media(max-width: 600px) {
+          margin: 0px;
+        }
+      }
+    }
   }
 
   .homepage__footerLinks {
     width: 100%;
   }
+}
+
+.slick-next,
+.slick-prev {
+  background-color: $red !important;
+  bottom: 10px;
+  height: 40px !important;
+  padding: 10px 15px 15px !important;
+  top: auto !important;
+  transform: none !important;
+  padding: 0 15px !important;
+  width: 40px !important;
+  z-index: 1;
+
+  @media(max-width: 600px) {
+    display: none !important;
+  }
+}
+
+.slick-prev {
+  left: 8px !important;
+}
+
+.slick-next {
+  right: 8px !important;
 }
 
 #marketingBlocks {

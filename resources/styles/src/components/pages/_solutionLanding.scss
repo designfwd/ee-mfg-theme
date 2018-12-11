@@ -1,42 +1,85 @@
 .solutionLanding__intro {
   padding-top: 10rem;
+
+  @media(max-width: 800px) {
+    padding-top: 8rem;
+  }
+
+  @media(max-width: 768px) {
+    padding-top: 1.5rem;
+  }
 }
 
 .solutionLanding__featuredImage {
   align-items: flex-start;
+  margin: 0 auto;
+  max-width: 1300px;
   padding-top: 1rem;
+
+  @media(max-width: 768px) {
+    padding-top: 0rem;
+  }
+}
+
+.solutionLanding__marketingBlocks {
+  margin: 0 auto 2rem;
+  max-width: 1000px;
+  width: 95%;
 }
 
 .solutionLanding__bodyContent {
   margin: 0 auto;
   max-width: 1000px;
-  padding: 3rem 0px;
-  width: 95%;
+  padding: 1.5rem 0px;
+  width: 90%;
+
+  @media(max-width: 600px) {
+    padding: .5rem 0px;
+  }
 }
 #caseStudies-wrapper {
-  background-color: #ededed;
+  background-color: #e2e2e2;
   display: flex;
   margin: 0 auto;
+  margin-top: 20px;
+  max-width: 1300px;
   padding-bottom: 2rem;
+  width: 95%;
 
   .caseStudies-wrapper-container {
+    align-items: flex-start;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
     max-width: 1300px;
+    width: 95%;
+
     .solutionLanding__caseStudies {
       flex: 0 1 40%;
+
+      @media(max-width: 600px) {
+        flex: 0 1 100%;
+      }
     }
 
     .solutionLanding__resources {
       flex: 0 1 40%;
+
+      @media(max-width: 500px) {
+        flex: 0 1 100%;
+      }
     }
   }
 }
 
 .solutionLanding__productGrid {
   margin: 0 auto;
-  width: 100%;
+  max-width: 1300px;
+  width: 95%;
+
+  @media(max-width: 900px) {
+    width: 100%;
+  }
 }

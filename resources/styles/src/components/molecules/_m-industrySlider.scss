@@ -1,0 +1,45 @@
+.m-industrySlider {
+  margin-top: 3rem;
+  position: relative;
+  .m-industrySlider__image {
+    width: 100%;
+  }
+
+  .m-industrySlider__content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 40%;
+
+    @media(max-width: 800px) {
+      width: 60%;
+    }
+
+    @media(max-width: 500px) {
+      width: 90%;
+    }
+
+    .m-industrySlider__title {
+      background-color: rgba(0,0,0,.8);
+      color: $white;
+
+      .m-industrySlider__flag {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 5%;
+      }
+    }
+
+    p {
+      background-color: rgba(255,255,255,.8);
+      color: #333;
+      line-height: 1.4rem;
+      padding: 1.5rem 2rem;
+    }
+  }
+}

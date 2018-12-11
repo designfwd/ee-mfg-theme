@@ -1,3 +1,39 @@
 .newsCategory__pageBanner {
-  padding-top: 10rem;
+  margin: 0 auto;
+  max-width: 1300px;
+  padding-top: 1rem;
+
+  @media(max-width: 600px) {
+    display: none;
+  }
 }
+
+.newsCategory__intro {
+  padding-top: 10rem;
+
+  @media(max-width: 800px) {
+    padding-top: 8rem;
+  }
+
+  @media(max-width: 768px) {
+    padding-top: 1.5rem;
+  }
+}
+
+.newsCategory__articleGrid {
+  padding-bottom: 2rem;
+}
+
+.newsCategory__newsSidebar {
+  background-color: #e2e2e2;
+  padding-bottom: 2rem;
+  margin: 0 auto;
+  max-width: 1300px;
+  width: 95%;
+ }
+
+ .newsCategory__categoryLinks {
+  margin: 0 auto;
+  max-width: 1300px;
+  width: 95%;
+ }

@@ -26,48 +26,122 @@ h1.o-introContent__title {
   color: $light-blue;
   font-size: 6rem;
   line-height: 5rem;
+  margin: 0px;
   text-transform: uppercase;
+
+  @media(max-width: 900px) {
+    font-size: 5rem;
+    line-height: 4.6rem;
+  }
+
+  @media(max-width: 600px) {
+    font-size: 3.8rem;
+    line-height: 3.4rem;
+  }
+
+  @media(max-width: 500px) {
+    font-size: 3rem;
+    line-height: 2.8rem;
+  }
 }
 
  h2.o-capabilityStack__headline,
  h2.o-supplementaryContent__title,
- h2.o-productGrid__headline {
+ h2.o-productGrid__headline,
+ h2.o-videoContent__headline,
+ h2.o-capabilitiesBlock__title,
+ .homepage__industrySlider h2,
+ .o-callToAction__description span {
   color: $blue;
   font-size: 4.6rem;
   font-weight: $font-bold;
   line-height: 3.8rem;
   margin: 0 auto;
   max-width: 800px;
-  padding: 4rem 0rem 1rem;
+  padding: 4rem 0rem 2rem;
   text-align: center;
   text-transform: uppercase;
-  width: 95%;
+  width: 80%;
+
+  @media(min-width: 1500px) {
+    max-width: 80%;
+  }
+
+  @media(max-width: 900px) {
+    font-size: 3.8rem;
+    line-height: 3.5rem;
+  }
+
+  @media(max-width: 600px) {
+    padding: 3rem 0 1rem;
+    width: 90%;
+  }
+
+  @media(max-width: 500px) {
+    font-size: 3rem;
+    line-height: 2.8rem;
+  }
+ }
+
+ h2.o-capabilitiesBlock__title {
+  padding: 3rem 0rem 2rem;
  }
 
  h2.a-rowLabel__title,
- h2.a-blockLabel__title {
+ h2.a-blockLabel__title,
+ h3.m-industrySlider__title {
   font-size: 2.5rem;
   line-height: 1;
   margin: 0px;
   padding: 1rem;
+
+  @media(max-width: 780px) {
+    font-size: 2rem;
+  }
+
+  @media(max-width: 600px) {
+    font-size: 1.4rem;
+    padding: .8rem 1rem;
+  }
  }
 
  h3,
- h3.m-sidebarTitle__text {
+ h3.m-sidebarTitle__text,
+ .m-sidebarTitle {
   color: $blue;
   font-size: 2rem;
   font-weight: $font-bold;
+  line-height: 2rem;
+ }
+
+ h3.m-footerLink__title,
+ h3.o-categoryLinks__title {
+  font-size: 1.5rem;
+  padding: .5rem 1rem;
+  width: auto;
+ }
+
+ h3.m-capabilitiesBlock__headline {
+  color: $white;
  }
 
  h3.m-sidebarTitle__text,
- h3.m-featureSlider__title {
+ h3.m-featureSlider__title,
+ .m-sidebarTitle {
   text-transform: uppercase;
  }
 
- h3.m-featureSlider__title {
+ h3.m-featureSlider__title,
+ .o-featuredImage .o-featuredImage__content span {
   font-size: 3rem;
+  font-weight: $font-bold;
   line-height: 2.8rem;
   margin: 0px;
+
+  @media(max-width: 700px) {
+    font-size: 2rem;
+    line-height: 2.2rem;
+  }
  }
 
  h3.o-callToAction__titleText {

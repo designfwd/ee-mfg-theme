@@ -36,8 +36,6 @@ select {
 
 // #{$all-text-inputs} {}
 
-// input[type="submit"] {}
-
 // label {}
 // legend {}
 // meter {}
@@ -47,3 +45,17 @@ select {
 // progress {}
 // select {}
 // textarea {}
+
+input,
+textarea {
+  background-color: $grey;
+  font-size: 1rem !important;
+  font-weight: $font-semibold !important;
+  padding: 10px !important;
+}
+
+input[type="submit"] {
+  background-color: $blue;
+  color: $white;
+  padding: 1rem 3rem !important;
+}

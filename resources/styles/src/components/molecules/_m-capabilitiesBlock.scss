@@ -1,0 +1,35 @@
+.m-capabilitiesBlock__row {
+  display: flex !important;
+
+  .m-capabilitiesBlock__num {
+    align-content: center;
+    align-self: center;
+    color: $white !important;
+    display: flex;
+    font-size: 3rem;
+    font-weight: $font-bold;
+    flex: 0 1 20%;
+    justify-content: center;
+    padding: 0 1.5rem 0 1rem;
+  }
+
+  .m-capabilitiesBlock__textBlock {
+    flex: 0 1 100%;
+    padding: 0px 4rem;
+
+    .m-capabilitiesBlock__headline {
+
+      @media(max-width: 800px) {
+        margin: 1rem 0;
+      }
+    }
+
+    @media(max-width: 600px) {
+      padding: 0px 1rem;
+    }
+
+    ul {
+      margin: 0 auto;
+    }
+  }
+}

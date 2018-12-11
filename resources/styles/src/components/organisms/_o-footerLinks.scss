@@ -11,6 +11,7 @@
 
   .o-footerLinks__block {
     padding-top: 1rem;
+    position: relative;
     width: 100%;
 
     @media(min-width: 800px) {
@@ -19,6 +20,13 @@
 
       &:last-child {
         margin-right: 0;
+      }
+    }
+
+    @media(max-width: 600px) {
+
+      &:first-of-type {
+        padding-top: 0rem;
       }
     }
 

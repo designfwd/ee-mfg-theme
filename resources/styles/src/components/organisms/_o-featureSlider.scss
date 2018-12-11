@@ -2,10 +2,6 @@
   width: 100%;
 }
 
-.slick-track {
-  width: 100% !important;
-
-  .slick-slide {
-    width: 100% !important;
-  }
+.slick-slide {
+  line-height: 0px;
 }
