@@ -33,3 +33,22 @@
     }
   }
 }
+
+.newsLanding__newsSidebar {
+
+  .m-sidebarTitle {
+
+    .m-sidebarTitle__text {
+      align-items: flex-start;
+      display: flex;
+      flex: 0 1 100%;
+      justify-content: flex-start;
+      position: relative;
+
+      .m-sidebarTitle__flag {
+        flex: 0 0 12px;
+        margin: 0 2rem 0 0;
+      }
+    }
+  }
+}

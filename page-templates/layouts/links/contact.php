@@ -6,7 +6,7 @@
 ?>
   <div class="o-contactLinks__block">
     <a class="m-contactLinkBlock" href="<?php the_sub_field('category_link_link'); ?>">
-      <img class="m-contactLinkBlock__image" src="<?php echo get_acf_image( get_sub_field ('category_link_background_image'), '960w', 'http://via.placeholder.com/872x469?text=image'); ?>" />
+      <img class="m-contactLinkBlock__image" src="<?php echo get_acf_image( get_sub_field('category_link_background_image'), '960w', 'http://via.placeholder.com/872x469?text=image'); ?>" />
       <div class="a-linkBlockLabel m-contactLinkBlock__label">
         <h2 class="a-linkBlockLabel__title">
         <?php the_sub_field('category_link_title'); ?>
