@@ -3,12 +3,19 @@
   flex-wrap: wrap;
   justify-content: space-around;
 
+  @media(max-width: 780px) {
+    padding-top: 3rem;
+}
   .o-contactLinks__block {
-    flex: 0 1 100%;
+    flex: 0 1 48%;
     margin-bottom: 1rem;
 
     @media(max-width: 780px) {
         flex: 0 1 48%;
+    }
+
+    @media(max-width: 500px) {
+      flex: 0 1 100%;
     }
   }
 }

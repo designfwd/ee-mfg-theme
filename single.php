@@ -16,15 +16,15 @@
         <section id="navigationMenu" class="newsLanding__nav">
           <?php get_partial('navigation', 'menu'); ?>
         </section>
-        <section id="pageBanner" class="newsLanding__pageBanner">
-          <?php get_partial('media', 'banner-news'); ?>
-        </section>
         <section id="introContent" class="newsLanding__intro">
           <?php get_partial('content', 'intro'); ?>
         </section>
+        <section id="pageBanner" class="newsLanding__pageBanner">
+          <?php get_partial('media', 'banner-news'); ?>
+        </section>
       </header>
 
-      <main id="main">
+      <main id="main" class="newsLanding__main">
         <section id="newsContent" class="newsLanding__newsContent">
           <?php get_partial('content', 'news'); ?>
         </section>

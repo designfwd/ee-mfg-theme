@@ -1,0 +1,46 @@
+.newsLanding__intro {
+    padding-top: 8rem;
+    width: 100%;
+
+  @media(max-width: 800px) {
+    padding-top: 8rem;
+  }
+
+  @media(max-width: 768px) {
+    padding-top: 1.5rem;
+  }
+}
+
+.newsLanding__pageBanner {
+    margin: 0 auto;
+    max-width: 1300px;
+    padding-top: 1rem;
+}
+
+.newsLanding__main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1300px;
+
+  .newsLanding__newsContent {
+    margin: 0 auto;
+    max-width: 1000px;
+  }
+
+  .newsLanding__newsSidebar {
+    background-color: #e2e2e2;
+    display: flex;
+    margin: 20px auto 0;
+    max-width: 1300px;
+    padding-bottom: 2rem;
+    width: 95%;
+  }
+}
+
+.newsLanding__categoryLinks {
+    margin: 0 auto;
+    max-width: 1300px;
+    width: 95%;
+}
