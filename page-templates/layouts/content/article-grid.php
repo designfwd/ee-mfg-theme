@@ -2,8 +2,9 @@
 <div class="o-articleGrid">
 <?php
   // WP_Query arguments
+  $cat = get_query_var('cat');
   $args = array(
-    // 'cat' => ??,
+    'cat' => $cat,
     'orderby' => 'date',
     );
     // The Query

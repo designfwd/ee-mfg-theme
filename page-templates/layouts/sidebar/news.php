@@ -43,16 +43,16 @@
     </div>
     <ul class="o-sidebar__list">
     <?php 
-      $categories = get_categories( array(
-        'orderby'            => 'name',
-         )); 
+      $categories = get_categories(); 
       foreach ($categories as $category): 
+        if(1 !== $category->term_id) :
     ?>  
 
       <li class="o-sidebar__item">
-        <?php echo $category->name; ?>
+        <a href="<?php echo get_category_link( $category->term_id ) ?>"><?php echo $category->name; ?></a>
       </li>
     <?php 
+        endif;
       endforeach;
     ?>
     </ul>
