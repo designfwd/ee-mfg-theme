@@ -5,8 +5,8 @@ import '../vendor/slick-carousel';
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
-    useTransform: true,
+    autoplaySpeed: 4000,
+    infinite: false,
   });
 
   $('.o-industrySlider').slick({
