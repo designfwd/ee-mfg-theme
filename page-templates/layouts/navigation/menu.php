@@ -18,36 +18,17 @@
     ));    
   ?>  
 </nav>
-
-<!-- <nav id="drawerMenu" class="o-drawerMenu">
-  <ul class="o-drawerMenu__list">
-    <li class="o-drawerMenu__item">
-      <a class="o-drawerMenu__anchor" href="#">Tour</a>
-    </li>
-    <li class="o-drawerMenu__item">
-      <a class="o-drawerMenu__anchor" href="#">Request a Quote</a>
-    </li>
-    <li class="o-drawerMenu__item">
-      <a class="o-drawerMenu__anchor" href="#">Contact</a>
-    </li>
-   Use https://developer.wordpress.org/reference/functions/wp_get_nav_menu_items/ to get menu items 
-    <li class="o-drawerMenu__item">
-      <a class="o-drawerMenu__anchor" href="#">Solutions</a>
-    </li>
-    <li class="o-drawerMenu__item">
-      <a class="o-drawerMenu__anchor" href="#">Products</a>
-    </li>
-    <li class="o-drawerMenu__item">
-      <a class="o-drawerMenu__anchor" href="#">Who We Serve</a>
-    </li>
-    <li class="o-drawerMenu__item">
-      <a class="o-drawerMenu__anchor" href="#">Why E&amp;E?</a>
-    </li>
-    <li class="o-drawerMenu__item">
-      <a class="o-drawerMenu__anchor" href="#">Join Our Team</a>
-    </li>
-    <li class="o-drawerMenu__item">
-      <a class="o-drawerMenu__anchor" href="#">Community</a>
-    </li>
-  </ul>
-</nav> -->
+<button id="mobile" data-pushbar-target="mypushbar1">
+<?php get_svg('icon-bars'); ?>
+</button>
+<nav data-pushbar-id="mypushbar1" class="pushbar from_left">
+<?php
+    wp_nav_menu( array(
+      'container'       => 'div',
+      'container_class' => 'o-navigationMenu__bottomRow--mobile',
+      'menu_class'      => 'm-navigationRow',    
+      'theme_location' => 'primary_nav',
+      'walker'          => new mobile_nav_icon()
+    ));   
+  ?>
+</nav>
