@@ -1,0 +1,23 @@
+.page-template-template-history {
+  .o-introContent {
+    padding-top: 8rem;
+  }
+}
+
+.cd-container {
+  .cd-timeline-img {
+    background: #010066 !important;
+    width: 40px !important;
+    height: 40px !important;
+    margin-left: -20px !important;
+  }
+
+  .cd-timeline-content h2 {
+    color: #010066;
+  }
+}
+
+.fa-warning:before,
+.fa-exclamation-triangle:before {
+  content: none !important;
+}

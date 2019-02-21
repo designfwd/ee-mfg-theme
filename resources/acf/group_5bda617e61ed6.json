@@ -97,8 +97,27 @@
             "endpoint": 0
         },
         {
+            "key": "field_5c6c764c56b01",
+            "label": "Timeline Code",
+            "name": "timeline_code",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
             "key": "field_5bda67c031c89",
-            "label": "Linked Blocks",
+            "label": "Video Tab",
             "name": "",
             "type": "tab",
             "instructions": "",
@@ -111,6 +130,60 @@
             },
             "placement": "top",
             "endpoint": 0
+        },
+        {
+            "key": "field_5c6c7873df5f3",
+            "label": "Title",
+            "name": "history_video_content_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5c6c788fdf5f4",
+            "label": "Description",
+            "name": "history_video_content_description",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_5c6c78a9df5f5",
+            "label": "Video",
+            "name": "history_video_content_video",
+            "type": "oembed",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "width": "",
+            "height": ""
         }
     ],
     "location": [
@@ -132,5 +205,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1541040087
+    "modified": 1550612675
 }

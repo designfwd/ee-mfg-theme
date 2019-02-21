@@ -25,6 +25,9 @@
         <section id="timeline" class="history__timeline">
           <?php get_partial('content', 'timeline'); ?>
         </section>
+        <section id="videoContent" class="history__videoContent">
+          <?php get_partial('media', 'history-video-content'); ?>
+        </section>
         <section id="linkedMedia" class="history__linkedMedia">
           <?php get_partial('media', 'linked-block'); ?>
         </section>

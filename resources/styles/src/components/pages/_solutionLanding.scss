@@ -56,7 +56,7 @@
     max-width: 1300px;
     width: 95%;
 
-    .solutionLanding__caseStudies {
+    /*.solutionLanding__caseStudies {
       flex: 0 1 40%;
 
       @media(max-width: 600px) {
@@ -69,6 +69,32 @@
 
       @media(max-width: 500px) {
         flex: 0 1 100%;
+      }
+    }*/
+
+    .solutionLanding__caseStudies {
+      display: none;
+    }
+
+    .solutionLanding__resources {
+      flex: 0 1 100%;
+
+      @media(max-width: 500px) {
+        flex: 0 1 100%;
+      }
+
+      .m-sidebarTitle__text {
+        justify-content: center;
+      }
+
+      .o-sidebar__list {
+        display: flex;
+        justify-content: center;
+
+        li {
+          flex: 0 1 auto;
+          padding: 0 .5rem;
+        }
       }
     }
   }
