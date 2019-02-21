@@ -92,3 +92,26 @@
     }
   }
 }
+#navigationMenu {
+  button#mobile{
+    z-index: 555;
+    svg{
+      height: 25px;
+      width: 25px;
+    }
+  }
+}
+.o-navigationMenu__bottomRow--mobile{
+  > ul > li{
+    flex-direction: column;
+    height: 2rem;
+
+    ul.sub-menu{
+      display: none;
+    }
+  }
+
+  .m-navigationRow{
+    display: block;
+  }
+}
