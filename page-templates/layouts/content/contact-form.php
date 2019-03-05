@@ -6,7 +6,9 @@
   <div class="o-contactForm__description">
     <?php the_field('contact_form_description'); ?>
   </div>
+  <?php if(get_field('contact_form_form')) : ?>
   <div class="o-contactForm__form">
     <?php gravity_form(get_field('contact_form_form'), true, true, false, '', true, 1);  ?>
   </div>
+  <?php endif; ?>
 </div>
