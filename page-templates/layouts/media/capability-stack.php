@@ -19,7 +19,7 @@
 
     ?>
     <a class="m-capabilityRow" href="<?php the_sub_field('capabilities_row_link'); ?>">
-      <img class="m-capabilityRow__image" src="<?php echo get_acf_image( get_sub_field('capabilities_row_image'), '1600w', 'http://via.placeholder.com/1591x741?text=capability'); ?>" />
+      <img class="m-capabilityRow__image lazyload" sizes="(min-width: 900px)860px, (min-width: 600px)600px" srcset="<?php echo get_acf_image_srcset(get_sub_field('capabilities_row_image')); ?>" data-src="<?php echo get_acf_image( get_sub_field('capabilities_row_image'), '1600w', 'http://via.placeholder.com/1591x741?text=capability'); ?>" />
       <div class="m-capabilityRow__label a-rowLabel">
         <h2 class="a-rowLabel__title">
           <?php the_sub_field('capabilities_row_title'); ?>

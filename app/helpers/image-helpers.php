@@ -7,3 +7,10 @@
         }else
             return $default;
     }
+    //return data-srcset html
+    function get_acf_image_srcset ( $image_id) {
+        if(is_numeric($image_id)) {
+            $image = wp_get_attachment_image_srcset($image_id, $size);
+        }
+        return ($image);
+    }    

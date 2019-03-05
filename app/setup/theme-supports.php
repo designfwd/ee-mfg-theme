@@ -12,3 +12,8 @@ function fwd_supports() {
   add_theme_support('align-wide');
 }
 add_action( 'after_setup_theme', 'fwd_supports' );
+
+function yoasttobottom() {
+	return 'low';
+}
+add_filter( 'wpseo_metabox_prio', 'yoasttobottom');
