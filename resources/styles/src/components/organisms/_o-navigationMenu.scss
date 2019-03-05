@@ -55,6 +55,12 @@
     background-color: $grey;
   }
   .o-navigationMenu__bottomRow {
+
+    ul {
+      @media(max-width: 768px) {
+        display: none;
+      }
+    }
     a {
       color: $black;
     }
@@ -93,11 +99,31 @@
   }
 }
 #navigationMenu {
+
+  @media(max-width: 600px) {
+    flex-wrap: wrap;
+  }
+
+  .o-navigationMenu__link {
+
+    @media(max-width: 600px) {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+
+  .o-navigationMenu__topRow {
+    @media(max-width: 600px) {
+      margin-top: 80px;
+    }
+  }
+
   button#mobile{
     z-index: 555;
     svg{
-      height: 25px;
-      width: 25px;
+      height: 23px;
+      width: 20px;
+      fill: #fff;
     }
   }
 }
@@ -112,6 +138,19 @@
   }
 
   .m-navigationRow{
+    display: block;
+  }
+}
+
+#mobile {
+  display: none;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background-color: #010066;
+  color: #fff;
+
+  @media(max-width: 768px) {
     display: block;
   }
 }

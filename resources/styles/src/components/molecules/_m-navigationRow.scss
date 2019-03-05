@@ -5,10 +5,15 @@
   list-style-type: none;
   margin: 0px;
 
+  &.m-navigationRow--upper {
+
+    @media(max-width: 768px) {
+      padding-right: 40px;
+    }
+  }
+
   .m-navigationRow__link {
     align-items: center;
-    display: none;
-    height: 100%;
 
     a {
       color: #555;
@@ -22,6 +27,10 @@
       -moz-transition: all 0.2s ease-in;
       -o-transition: all 0.2s ease-in;
       transition: all 0.2s ease-in;
+
+      @media(max-width: 768px) {
+        padding: .28rem .5rem;
+      }
 
       &:hover {
         background-color: $blue;
@@ -40,10 +49,6 @@
 
     &.m-navigationRow__link--menuToggle {
       display: block;
-
-      @media(min-width: 768px) {
-        display: none;
-      }
     }
   }
 
