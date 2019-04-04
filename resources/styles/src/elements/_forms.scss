@@ -59,3 +59,7 @@ input[type="submit"] {
   color: $white;
   padding: 1rem 3rem !important;
 }
+
+#input_1_1::placeholder {
+  color: #e2e2e2;
+}

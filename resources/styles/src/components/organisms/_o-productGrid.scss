@@ -26,12 +26,14 @@
   flex-direction: row;
   flex-wrap: wrap;
   padding-top: 2rem;
+  justify-content: center;
 
   .o-productGrid__block {
     flex: 0 1 33.33%;
     line-height: 0px;
     overflow: hidden;
     position: relative;
+    margin-bottom: 25px;
 
     &:after {
       content: '\A';
