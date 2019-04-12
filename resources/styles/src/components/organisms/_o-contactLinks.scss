@@ -14,6 +14,11 @@
         flex: 0 1 48%;
     }
 
+    @media(max-width: 640px) {
+      flex: 0 1 100%;
+      margin-bottom: .5rem;
+    }
+
     @media(max-width: 500px) {
       flex: 0 1 100%;
     }

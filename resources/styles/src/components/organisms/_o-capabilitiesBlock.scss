@@ -38,11 +38,17 @@
     width: 70%;
   }
 
+  @media(max-width: 700px) {
+    width: 98%;
+  }
+
   @media(max-width: 600px) {
     right: 0px;
-    padding: 0rem;
+    padding: 10px;
     top: 0rem;
     width: 100%;
+    position: relative;
+    background: #010066;
   }
 
   .a-rowLabel__flag {

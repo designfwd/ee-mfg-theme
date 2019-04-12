@@ -17,7 +17,7 @@
   .o-copyrightContent__legal {
     padding-bottom: .5rem;
 
-    @media(min-width: 768px) {
+    @media(max-width: 768px) {
       padding: 0;
     }
   }

@@ -8,15 +8,13 @@
     cursor: pointer;
     height: 37px;
     margin: 3px 10px 3px 0;
-    padding: 0 0 0 34px;
+    padding: 0 0 0 34px !important;
     position: relative;
     -webkit-transition: width 400ms ease, background 400ms ease;
     transition: width 400ms ease, background 400ms ease;
     width: 0;
 }
 .m-search-field:focus {
-    background-color: #fff;
-    border: 2px solid #c3c0ab;
     cursor: text;
     outline: 0;
     width: 230px;

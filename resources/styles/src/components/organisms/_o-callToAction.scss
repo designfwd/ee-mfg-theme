@@ -20,6 +20,10 @@
     padding-top: 4rem;
     text-align: center;
     text-transform: uppercase;
+
+    @media(max-width: 640px) {
+      padding-top: 2rem;
+    }
   }
 
   .o-callToAction__description {

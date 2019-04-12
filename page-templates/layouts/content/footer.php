@@ -18,7 +18,7 @@
 
     <div class="m-footerSocial">
       <div class="m-footerSocial__button">
-        <a class="a-dividedIcon a-dividedIcon--footer" href="/contact-us">
+        <a class="a-dividedIcon a-dividedIcon--footer" href="/contact">
           <span class="a-dividedIcon__text">Contact Us</span>
           <span class="a-dividedIcon__icon"></span>
         </a>

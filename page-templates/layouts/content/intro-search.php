@@ -12,7 +12,6 @@
     </svg>
     </h1>
     <div class="o-introContent__paragraph">
-        Maecenas quis diam aliquet, auctor quam auctor Vestibulum sed nunc enim. Nullam semper imperdiet magna, ut mattis tortor gravida sit amet. Integer sagittis finibus enim, id tempus purus vulputate vel.    
     </div>
   </div>
 </div>

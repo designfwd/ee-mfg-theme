@@ -17,6 +17,10 @@
       padding: 3rem 5% 1rem;
       width: 95%;
     }
+
+    @media(max-width: 500px) {
+      padding: 2rem 5% 0rem;
+    }
   }
 
   .o-marketingBlocks__block {
