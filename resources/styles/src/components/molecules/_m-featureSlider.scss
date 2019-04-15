@@ -14,24 +14,27 @@
     right: 8px;
     width: 45%;
 
-    @media(max-width: 800px) {
+    @media(max-width: 900px) {
       background: linear-gradient(135deg, rgba(0,0,152,.5), rgba(0,0,0,.5));
-      right: 2.5%;
+      bottom: 4em;
+      width: 65%;
+    }
+
+    @media(max-width: 768px) {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
       width: 95%;
+      right: auto;
+      bottom: auto;
     }
 
     @media(max-width: 700px) {
       padding: 1rem;
     }
 
-    @media(max-width: 600px) {
-      bottom: 1rem;
-    }
-
     @media(max-width: 500px) {
-      bottom: 0rem;
-      right: 0%;
-      width: 100%;
+      width: 95%;
     }
 
     h3.m-featureSlider__title {
@@ -42,6 +45,11 @@
       color: $yellow;
       line-height: 1.4rem;
       margin: 0px;
+
+      @media(max-width: 500px) {
+        font-size: 1rem;
+        line-height: 1.2rem;
+      }
     }
   }
 }

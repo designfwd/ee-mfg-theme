@@ -5,6 +5,10 @@
   max-width: 1300px;
   width: 90%;
 
+  @media(max-width: 600px) {
+    padding-bottom: 0rem;
+  }
+
   .o-introContent__before {
     align-items: flex-start;
     display: flex;
@@ -47,7 +51,7 @@
 
       .o-introContent__decoration {
         flex: 0 0 25px;
-        margin: 0 -40px 0 40px;
+        margin: 0 -20px 0 20px;
 
         @media(max-width: 600px) {
           margin: 10px 0 0;

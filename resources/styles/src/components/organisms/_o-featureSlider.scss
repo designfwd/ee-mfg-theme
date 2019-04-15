@@ -1,5 +1,13 @@
 .o-featureSlider {
   width: 100%;
+
+  @media(max-width: 768px) {
+    padding-top: 2.8rem;
+  }
+
+  @media(max-width: 600px) {
+    padding-top: 5rem;
+  }
 }
 
 .slick-slide {

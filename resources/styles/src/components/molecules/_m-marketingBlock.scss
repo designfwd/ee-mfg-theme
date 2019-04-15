@@ -13,6 +13,11 @@
       font-size: 1.3rem;
       line-height: 1.4rem;
     }
+
+    @media(max-width: 500px) {
+      font-size: 1.2rem;
+      line-height: 1.3rem;
+    }
   }
 
   .m-marketingBlock__body {
@@ -22,6 +27,13 @@
     padding: 0;
     width: 60%;
 
+    p {
+
+      @media(max-width: 500px) {
+        margin: 0em 5em 5em;
+      }
+    }
+
     @media(max-width: 800px) {
       width: 90%;
     }
@@ -29,6 +41,11 @@
     @media(max-width: 700px) {
       font-size: 1.3rem;
       line-height: 1.4rem;
+    }
+
+    @media(max-width: 500px) {
+      font-size: 1.2rem;
+      line-height: 1.3rem;
     }
   }
 

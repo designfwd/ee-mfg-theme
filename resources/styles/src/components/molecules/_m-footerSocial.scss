@@ -15,8 +15,9 @@
     flex: 0 1 35%;
 
     @media(max-width: 600px) {
-      padding-right: 0rem;
+      padding-right: 0;
       flex: 0 1 100%;
+      margin-bottom: 1rem;
     }
   }
 

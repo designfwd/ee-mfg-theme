@@ -26,6 +26,10 @@
       transition: all 1s;
       -webkit-transition: all 1s;
       z-index: 1;
+
+      @media(max-width: 640px) {
+        padding-top: .5rem;
+      }
     }
 
     &:hover {
@@ -35,9 +39,9 @@
       }
     }
 
-    @media(max-width: 600px) {
+    @media(max-width: 640px) {
       flex: 0 1 100%;
-      padding-top: 1rem;
+      padding-top: .5rem;
     }
   }
 

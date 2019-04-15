@@ -17,10 +17,10 @@
       'theme_location' => 'primary_nav'
     ));    
   ?>  
-</nav>
-<button id="mobile" data-pushbar-target="mypushbar1">
+  <button id="mobile" data-pushbar-target="mypushbar1">
 <?php get_svg('icon-bars'); ?>
 </button>
+</nav>
 <nav data-pushbar-id="mypushbar1" class="pushbar from_left">
 <?php
     wp_nav_menu( array(
