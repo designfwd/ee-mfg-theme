@@ -139,6 +139,7 @@ jQuery('.m-drawerMenu__toggle').click(function() {
   jQuery(this).toggleClass('js-clicked');
   jQuery(this).siblings('.m-drawerMenu__link--inactive').toggleClass('js-clicked');
   jQuery(this).siblings('.m-drawerMenu__subLink').toggleClass('js-clicked');
+  jQuery(this).parent().siblings('.m-drawerMenu__subLink').toggleClass('js-open').slideToggle();  
   jQuery(this).siblings('.m-drawerMenu__sub').toggleClass('js-open').slideToggle();
 });
 

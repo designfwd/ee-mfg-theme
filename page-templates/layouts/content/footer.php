@@ -3,7 +3,7 @@
 <div class="o-footerContent__mainContainer">
 
   <div class="o-footerContent__logoContainer">
-    <img class="o-footerContent__logo" src="<?php echo get_acf_image( get_field('footer_logo', 'option'), '540w', 'http://via.placeholder.com/588x216?text=logo'); ?> " />
+    <img class="o-footerContent__logo lazyload" src="<?php echo get_acf_image( get_field('footer_logo', 'option'), '540w', 'http://via.placeholder.com/588x216?text=logo'); ?> " />
   </div>
   <div class="o-footerContent__body">
   <?php

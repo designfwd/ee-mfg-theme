@@ -15,7 +15,7 @@
 ?>
   <div class="m-articlePreview o-articleGrid__article">
     <a href="<?php the_permalink(); ?>" >
-      <img class="m-articlePreview__image" src="<?php echo $image[0]; ?>" />
+      <img class="m-articlePreview__image lazyload" src="<?php echo $image[0]; ?>" />
       <h4 class="m-articlePreview__date"><?php echo get_the_date( 'm/d/Y'); ?></h4>
       
       

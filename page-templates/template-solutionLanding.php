@@ -34,6 +34,9 @@
         <section id="solutionCapabilities" class="solutionLanding__solutionCapabilities">
           <?php get_partial('slider', 'solution-capabilities'); ?>
         </section>
+        <?php
+          if(have_rows('solution_case_studies') || have_rows('solution_resource_links')) :
+        ?>
         <section id="caseStudies-wrapper"> <section class="caseStudies-wrapper-container">
           <section id="caseStudies" class="solutionLanding__caseStudies">
             <?php get_partial('links', 'case-studies'); ?>
@@ -42,6 +45,7 @@
             <?php get_partial('links', 'resources'); ?>
           </section>
         </section></section>
+          <?php endif; ?>
         <section id="productGrid" class="solutionLanding__productGrid">
           <?php get_partial('media', 'product-grid'); ?>
         </section>
