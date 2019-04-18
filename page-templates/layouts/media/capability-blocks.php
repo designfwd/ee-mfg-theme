@@ -17,7 +17,7 @@
                 <?php echo $description; ?>
               </div>
               <div class="m-capabilityBlock__mediaBlock">
-                <img class="m-capabilityBlock__image" src="<?php echo $image; ?>" />
+                <img class="m-capabilityBlock__image lazyload" src="<?php echo $image; ?>" />
                 <div class="m-capabilityBlock__label">
                   <div class="a-blockLabel">
                     <h2 class="a-blockLabel__title">
@@ -35,7 +35,7 @@
           <a class="o-capabilityBlocks__block o-capabilityBlocks__block--reverse" href="<?php echo $link; ?>">
             <div class="m-capabilityBlock m-capabilityBlock--reverse">
               <div class="m-capabilityBlock__mediaBlock">
-                <img class="m-capabilityBlock__image m-capabilityBlock__image--reverse" src="<?php echo $image; ?>" />
+                <img class="m-capabilityBlock__image m-capabilityBlock__image--reverse lazyload" src="<?php echo $image; ?>" />
                 <div class="m-capabilityBlock__label m-capabilityBlock__label--reverse">
                   <div class="a-blockLabel a-blockLabel--reverse">
                     <h2 class="a-blockLabel__title">

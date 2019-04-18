@@ -1,4 +1,7 @@
 <?php // Link block for featuring case studies. Similar styling to sidebars ?>
+<?php
+if(have_rows('solution_case_studies')) :
+?>
 <div class="o-sidebar o-sidebar--caseStudies">
 
   <div class="o-sidebar__widget">
@@ -23,3 +26,4 @@
   </div>
 
 </div>
+<?php endif; ?>

@@ -21,7 +21,10 @@
         </section>
       </header>
 
-      <main id="main" class="generalLanding__main">
+      <main id="main" class="generalLanding__main">       
+      <section id="searchForm" class="generalLanding__bodyContent">
+          <?php get_search_form(); ?>
+        </section>
         <section id="bodyContent" class="generalLanding__bodyContent">
           <?php get_partial('content', 'general-search'); ?>
         </section>

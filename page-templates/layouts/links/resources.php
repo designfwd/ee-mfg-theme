@@ -1,4 +1,7 @@
 <?php // Link block for featuring related resources. Similar styling to sidebars ?>
+<?php 
+if ( have_rows('solution_resource_links') ) : 
+?>
 <div class="o-sidebar o-sidebar--resources">
   <div class="o-sidebar__widget">
     <div class="m-sidebarTitle">
@@ -26,3 +29,4 @@
   </div>
 
 </div>
+<?php endif; ?>
