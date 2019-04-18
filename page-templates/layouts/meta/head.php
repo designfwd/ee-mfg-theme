@@ -28,7 +28,6 @@
   <?php
     endif;
   ?>
-<script src="..\..\resources\scripts\src\vendor\pushbar.js" type="text/javascript"></script>
   <?php // WordPress head() function
     wp_head();
   ?>
