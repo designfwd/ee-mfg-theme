@@ -138,8 +138,16 @@ jQuery('.m-drawerMenu__sub').addClass('js-loaded').hide();
 jQuery('.m-drawerMenu__toggle').click(function() {
   jQuery(this).toggleClass('js-clicked');
   jQuery(this).siblings('.m-drawerMenu__link--inactive').toggleClass('js-clicked');
+  // close other menus
+  jQuery('.current_page_item').toggleClass('current_page_item');
+  jQuery('.js-clicked').toggleClass('js-clicked');
+  jQuery('.js-open').toggleClass('js-open').slideToggle();
+
+
+
+  // open menu
+  jQuery(this).parent().toggleClass('current_page_item');
   jQuery(this).siblings('.m-drawerMenu__subLink').toggleClass('js-clicked');
-  jQuery(this).parent().siblings('.m-drawerMenu__subLink').toggleClass('js-open').slideToggle();  
   jQuery(this).siblings('.m-drawerMenu__sub').toggleClass('js-open').slideToggle();
 });
 

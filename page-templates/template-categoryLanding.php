@@ -25,9 +25,13 @@
         <section id="capabilityBlocks" class="categoryLanding__capabilityBlocks">
           <?php get_partial('media', 'capability-blocks'); ?>
         </section>
+        <?php
+          if(get_field('supplementary_content_title')) :
+        ?>
         <section id="supplementaryContent" class="categoryLanding__supplementaryContent">
           <?php get_partial('content', 'supplementary'); ?>
         </section>
+          <?php endif; ?>
       </main>
 
       <footer id="footer">
