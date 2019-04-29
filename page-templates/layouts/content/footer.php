@@ -66,9 +66,7 @@
           <?php the_sub_field('footer_location_title', 'option'); ?>
         </h5>
         <div class="m-footerContact__location">
-          <a class="m-footerContact__address" href="#">
           <?php the_sub_field('footer_location_address', 'option'); ?>
-          </a>
           <a class="m-footerContact__phone" href="tel:<?php the_sub_field('footer_location_phone', 'option'); ?>">            
           <?php the_sub_field('footer_location_phone', 'option'); ?>
           </a>
