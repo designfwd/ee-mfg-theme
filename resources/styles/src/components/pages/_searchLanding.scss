@@ -3,4 +3,18 @@
   .m-articlePreview a:after {
     background: transparent;
   }
+
+  #searchForm {
+    margin: 1rem auto 3rem;
+
+    .o-search-form {
+      background-color: #e2e2e2;
+      width: 100%;
+
+      .m-search-field {
+        float: right;
+        width: 95% !important;
+      }
+    }
+  }
 }

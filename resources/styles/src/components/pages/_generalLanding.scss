@@ -53,3 +53,20 @@
   max-width: 1300px;
   width: 95%;
 }
+
+.error404 {
+
+  #searchForm {
+    margin: 1rem auto 3rem;
+
+    .o-search-form {
+      background-color: #e2e2e2;
+      width: 100%;
+
+      .m-search-field {
+        float: right;
+        width: 95% !important;
+      }
+    }
+  }
+}
