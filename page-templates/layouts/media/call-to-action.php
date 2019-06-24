@@ -39,7 +39,7 @@
 
         ?>
         <div class="m-ctaCard__row">
-          <img class="m-ctaCard__icon" src="<?php echo get_acf_image( get_sub_field('footer_call_to_action_call_out_link_icon', 'option'), '2560w', 'http://via.placeholder.com/64x64?text=icon'); ?>" />
+          <img class="m-ctaCard__icon lazyload" src="<?php echo get_acf_image( get_sub_field('footer_call_to_action_call_out_link_icon', 'option'), '2560w', 'http://via.placeholder.com/64x64?text=icon'); ?>" />
           <div class="m-ctaCard__button">
             <a class="a-dividedIcon" href="<?php the_sub_field('footer_call_to_action_call_out_link_link', 'option'); ?>">
               <span class="a-dividedIcon__text"><?php the_sub_field('footer_call_to_action_call_out_link_title', 'option'); ?></span>

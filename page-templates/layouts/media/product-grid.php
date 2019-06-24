@@ -22,7 +22,7 @@ if(have_rows('solution_products')) :
 ?>
   <div class="o-productGrid__block" href="<?php echo get_the_permalink($product->ID); ?>">
     <div class="m-productGrid">
-      <img class="m-productGrid__image" src="<?php echo $background_image; ?>" />
+      <img class="m-productGrid__image lazyload" src="<?php echo $background_image; ?>" />
       <h3 class="m-productGrid__title">
         <svg class="m-productGrid__arrow" viewBox="0 0 64 64">
           <path fill="#FF0000" d="M 0,64 L 64,0 L 64,64" />

@@ -3,7 +3,7 @@
 <div class="o-footerContent__mainContainer">
 
   <div class="o-footerContent__logoContainer">
-    <img class="o-footerContent__logo" src="<?php echo get_acf_image( get_field('footer_logo', 'option'), '540w', 'http://via.placeholder.com/588x216?text=logo'); ?> " />
+    <img class="o-footerContent__logo lazyload" src="<?php echo get_acf_image( get_field('footer_logo', 'option'), '540w', 'http://via.placeholder.com/588x216?text=logo'); ?> " />
   </div>
   <div class="o-footerContent__body">
   <?php
@@ -47,7 +47,7 @@
             $link = get_sub_field('footer_social_instagram', 'option');
           }                
     ?>
-          <a class="m-footerSocial__icon" href="<?php echo $link; ?>">
+          <a class="m-footerSocial__icon" href="<?php echo $link; ?>" target="_blank">
            <?php echo $icon; ?>
           </a>
     <?php
@@ -85,7 +85,7 @@
 
 <div class="o-copyrightContent">
   <div class="o-copyrightContent__legal">
-    &copy; Copyright 2017 E&amp;E Manufacturing. All rights reserved.
+    &copy; Copyright <?php echo date('Y');?> E&amp;E Manufacturing. All rights reserved.
   </div>
   <div class="o-copyrightContent__links">
     <a class="o-copyrightContent__anchor" href="#">
