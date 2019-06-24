@@ -13,7 +13,7 @@
     <?php the_field('footer_call_to_action_description', 'option'); ?>
   </div>
   <div class="o-callToAction__mediaBlock">
-    <img class="o-callToAction__image" src="<?php echo get_acf_image( get_field('footer_call_to_action_background_image', 'option'), '2560', 'http://via.placeholder.com/2677x1271?text=call+to+action+background'); ?>" />
+    <img class="o-callToAction__image lazyload" src="<?php echo get_acf_image( get_field('footer_call_to_action_background_image', 'option'), '2560', 'http://via.placeholder.com/2677x1271?text=call+to+action+background'); ?>" />
     <div class="o-callToAction__card">
       <div class="m-ctaCard">
       <?php
