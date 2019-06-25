@@ -88,16 +88,16 @@
     &copy; Copyright 2017 E&amp;E Manufacturing. All rights reserved.
   </div>
   <div class="o-copyrightContent__links">
-    <a class="o-copyrightContent__anchor" href="#">
+    <a class="o-copyrightContent__anchor" href="/sitemap">
       Sitemap
     </a>
-    <a class="o-copyrightContent__anchor" href="#">
+    <a class="o-copyrightContent__anchor" href="/privacy-policy">
       Privacy Policy
     </a>
-    <a class="o-copyrightContent__anchor" href="#">
+    <a class="o-copyrightContent__anchor" href="/terms-conditions">
       Terms of Service
     </a>
-    <a class="o-copyrightContent__anchor" href="#">
+    <a class="o-copyrightContent__anchor" href="http://www.designfwd.com/">
       Web Design by FWD
     </a>
   </div>
