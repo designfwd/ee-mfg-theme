@@ -9,23 +9,29 @@
   .o-marketingBlocks__description {
     font-weight: $font-semibold;
     margin: 0;
-    padding: 3rem 10% 1rem;
+    padding: 2.5rem 10% 0;
     text-align: center;
     width: 80%;
 
     @media(max-width: 800px) {
       padding: 3rem 5% 1rem;
-      width: 95%;
+      width: 90%;
     }
 
     @media(max-width: 500px) {
-      padding: 2rem 5% 0rem;
+      padding: 2rem 0 0;
+    }
+
+    p {
+      @media(max-width: 500px) {
+        margin: 0 0 2rem;
+      }
     }
   }
 
   .o-marketingBlocks__block {
     align-items: center;
-    border-right: $border-grey;
+    border-right: 1px solid rgba(266,266,266,.3);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,6 +43,7 @@
 
     @media(max-width: 500px) {
       border-right: none;
+      display: none;
       width: 100%;
     }
   }

@@ -5,8 +5,8 @@
   justify-content: center;
   flex-direction: column;
   flex-wrap: nowrap;
-  margin-top: 2rem;
-  padding: 2rem 0rem 0rem;
+  margin-top: 1rem;
+  padding: 1rem 0 0;
   width: 100%;
 
   @media(min-width: 768px) {
@@ -45,6 +45,7 @@
         width: 100%;
 
         @media(max-width: 600px) {
+          padding-top: 1rem;
           width: 70%;
         }
       }

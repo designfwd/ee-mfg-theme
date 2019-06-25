@@ -24,20 +24,20 @@ section {
 }
 h1.o-introContent__title {
   color: $blue;
-  font-size: 5rem;
-  line-height: 4.5rem;
+  font-size: 4.4rem;
+  line-height: 4rem;
   margin: 0px;
-  text-transform: uppercase;
-  padding-bottom: 1rem;
+  text-transform: capitalize;
+  padding-bottom: 0;
 
-  @media(max-width: 700px) {
-    font-size: 3.8rem;
-    line-height: 3.6rem;
+  @media(max-width: 900px) {
+    font-size: 3.6rem;
+    line-height: 3.4rem;
   }
 
   @media(max-width: 500px) {
-    font-size: 3rem;
-    line-height: 2.8rem;
+    font-size: 2.6rem;
+    line-height: 2.4rem;
   }
 }
 
@@ -46,17 +46,16 @@ h1.o-introContent__title {
  h2.o-productGrid__headline,
  h2.o-videoContent__headline,
  h2.o-capabilitiesBlock__title,
- .homepage__industrySlider h2,
- .o-callToAction__description span {
+ .homepage__industrySlider h2 {
   color: $blue;
-  font-size: 4.6rem;
+  font-size: 4.4rem;
   font-weight: $font-bold;
-  line-height: 4.2rem;
+  line-height: 4rem;
   margin: 0 auto;
   max-width: 800px;
-  padding: 4rem 0rem 2rem;
+  padding: 3rem 0rem 1.5rem;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: capitalize;
   width: 80%;
 
   @media(min-width: 1500px) {
@@ -65,7 +64,7 @@ h1.o-introContent__title {
 
   @media(max-width: 900px) {
     font-size: 3.6rem;
-    line-height: 3.3rem;
+    line-height: 3.4rem;
   }
 
   @media(max-width: 600px) {
@@ -74,8 +73,8 @@ h1.o-introContent__title {
   }
 
   @media(max-width: 500px) {
-    font-size: 3rem;
-    line-height: 2.8rem;
+    font-size: 2.6rem;
+    line-height: 2.4rem;
   }
  }
 
@@ -90,7 +89,7 @@ h1.o-introContent__title {
  h2.a-rowLabel__title,
  h2.a-blockLabel__title,
  h3.m-industrySlider__title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 1;
   margin: 0px;
   padding: 1rem;
@@ -110,9 +109,9 @@ h1.o-introContent__title {
  .m-sidebarTitle {
   color: $blue;
   font-size: 2rem;
-  font-weight: $font-bold;
+  font-weight: $font-semibold;
   line-height: 2rem;
-  margin: 1rem 0;
+  margin: 1rem 0 .5rem;
  }
 
  h3.m-footerLink__title,
@@ -134,9 +133,9 @@ h1.o-introContent__title {
 
  h3.m-featureSlider__title,
  .o-featuredImage .o-featuredImage__content span {
-  font-size: 3rem;
-  font-weight: $font-bold;
-  line-height: 2.8rem;
+  font-size: 2rem;
+  font-weight: $font-semibold;
+  line-height: 2.2rem;
   margin: 0px;
 
   @media(max-width: 700px) {
@@ -154,3 +153,19 @@ h1.o-introContent__title {
   color: $blue;
   font-size: 3rem;
  }
+
+#callToAction {
+  margin: 0 auto;
+  max-width: 1300px;
+  width: 100%;
+}
+
+#footerLinks {
+  margin: 0 auto;
+  max-width: 1300px;
+  width: 100%;
+}
+
+.gform_wrapper li.hidden_label input {
+  margin-top: 12px !important;
+}

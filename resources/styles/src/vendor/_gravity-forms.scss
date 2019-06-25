@@ -98,3 +98,31 @@ body .gform_wrapper ul li.gfield {
 .gform_wrapper ul.gform_fields li.gfield {
   padding-right: 0 !important;
 }
+
+.validation_error {
+  border-top: none !important;
+  border-bottom: none !important;
+  margin-bottom: 0 !important;
+  padding: .5rem 5% 0 !important;
+}
+
+.gfield_contains_required {
+  background-color: transparent !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  max-width: 100% !important;
+}
+
+.validation_message {
+  padding-top: 0 !important;
+}
+
+.gform_wrapper li {
+
+  &.hidden_label {
+
+    input {
+      margin-top: 0 !important;
+    }
+  } 
+}

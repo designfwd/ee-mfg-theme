@@ -23,7 +23,7 @@
 
     @media(max-width: 800px) {
       background: linear-gradient(135deg,rgba(0,0,152,.5),rgba(0,0,0,.5));
-      width: 65%;
+      width: 75%;
     }
 
     @media(max-width: 600px) {
@@ -42,7 +42,8 @@
       line-height: 1.1rem;
 
       @media(max-width: 600px) {
-        font-weight: $font-semibold;
+        font-size: 1.1rem;
+        line-height: 1.4rem;
       }
     }
 

@@ -14,7 +14,7 @@
   z-index: 4;
 
   @media(max-width: 768px) {
-    height: 45px;
+    height: auto;
     width: 100%;
   }
 
@@ -24,6 +24,10 @@
     display: flex;
     height: 100%;
     position: absolute;
+
+    @media(max-width: 768px) {
+      height: 45px;
+    }
 
     .o-navigationMenu__image {
       align-self: center;
@@ -59,6 +63,10 @@
 
     @media(max-width: 768px) {
       height: 45px;
+    }
+
+    @media(max-width: 600px) {
+      height: auto;
     }
   }
   .o-navigationMenu__bottomRow {
@@ -97,7 +105,7 @@
     transition: all 0.5s ease-in;
 
     @media(max-width: 768px) {
-      height: 45px;
+      height: auto;
     }
 
     .o-navigationMenu__link {
@@ -158,14 +166,14 @@
     a {
       padding: .7rem 1rem !important;
       flex: 0 1 auto;
-      width: 90%;
+      width: 85%;
       order: 1;
     }
 
     .m-drawerMenu__toggle {
       color: #fff;
       flex: 0 1 auto;
-      width: 10%;
+      width: 15%;
       text-align: center;
       order: 2;
     }

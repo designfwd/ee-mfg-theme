@@ -1,3 +1,8 @@
 .o-bodyContent {
-    color: $black;
+  color: $black;
+}
+
+.o-bodyContent--general {
+  margin: 0 auto;
+  max-width: 800px;
 }

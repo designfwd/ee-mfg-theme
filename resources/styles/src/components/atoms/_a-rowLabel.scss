@@ -8,7 +8,9 @@
   .a-rowLabel__title {
     color: $white;
     margin: 0;
+    padding: 1rem 1rem 1rem 2rem;
     width: 95%;
+    font-weight: $font-semibold;
   }
 
   .a-rowLabel__flag {

@@ -1,8 +1,9 @@
 .m-footerContact {
+  color: #555;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  padding: 2rem 0;
+  padding: 1rem 0 2rem;
   text-align: left;
   width: 100%;
 
@@ -30,13 +31,14 @@
   }
 
   .m-footerContact__location {
+    font-size: 1rem;
+
+    p {
+      margin: 0 auto;
+    }
 
     a {
       color: $black;
-
-      p {
-        margin: 0 auto;
-      }
     }
   }
 }
