@@ -9,6 +9,7 @@ $footer_newsletter = get_field('footer_newsletter', 'option');
 ?>
   <a class="o-footerLinks__block" href="<?php the_sub_field('footer_link_link', 'option'); ?>">
     <div class="m-footerLink">
+
       <img class="m-footerLink__image" 
         src="<?php echo get_acf_image( get_sub_field('footer_link_image', 'option'), 'preload', 'http://via.placeholder.com/934x687?text=image'); ?> " 
         srcset="<?php echo get_acf_image_srcset( get_sub_field('footer_link_image', 'option')); ?> "
@@ -25,7 +26,7 @@ $footer_newsletter = get_field('footer_newsletter', 'option');
 
   <div class="o-footerLinks__block o-footerLinks__block--newsletter">
     <div class="m-footerLink m-footerLink--newsletter" href="#">
-      <img class="m-footerLink__icon" src="<?php echo get_acf_image( $footer_newsletter['footer_newsletter_icon'], 'preload', 'http://via.placeholder.com/64x64?text=image'); ?> " />
+      <img class="m-footerLink__icon lazyload" src="<?php echo get_acf_image( $footer_newsletter['footer_newsletter_icon'], 'preload', 'http://via.placeholder.com/64x64?text=image'); ?> " />
       <h3 class="m-footerLink__label">
         <?php echo $footer_newsletter['footer_newsletter_title']; ?>
       </h3>

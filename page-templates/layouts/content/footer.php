@@ -47,7 +47,7 @@
             $link = get_sub_field('footer_social_instagram', 'option');
           }                
     ?>
-          <a class="m-footerSocial__icon" href="<?php echo $link; ?>">
+          <a class="m-footerSocial__icon" href="<?php echo $link; ?>" target="_blank">
            <?php echo $icon; ?>
           </a>
     <?php
@@ -83,7 +83,7 @@
 
 <div class="o-copyrightContent">
   <div class="o-copyrightContent__legal">
-    &copy; Copyright 2017 E&amp;E Manufacturing. All rights reserved.
+    &copy; Copyright <?php echo date('Y');?> E&amp;E Manufacturing. All rights reserved.
   </div>
   <div class="o-copyrightContent__links">
     <a class="o-copyrightContent__anchor" href="#">
