@@ -13,3 +13,4 @@ function fwd_asset_loader()
 
 }
 add_action('wp_enqueue_scripts', 'fwd_asset_loader', 100);
+add_filter('gform_init_scripts_footer', '__return_true');

@@ -13,7 +13,10 @@
     <?php the_field('footer_call_to_action_description', 'option'); ?>
   </div>
   <div class="o-callToAction__mediaBlock">
-    <img class="o-callToAction__image lazyload" src="<?php echo get_acf_image( get_field('footer_call_to_action_background_image', 'option'), '2560', 'http://via.placeholder.com/2677x1271?text=call+to+action+background'); ?>" />
+    <img 
+      class="o-callToAction__image lazyload" 
+      src="<?php echo get_acf_image( get_field('footer_call_to_action_background_image', 'option'), 'preload', 'http://via.placeholder.com/2677x1271?text=call+to+action+background'); ?>" 
+      srcset="<?php echo get_acf_image_srcset(get_field('footer_call_to_action_background_image', 'option')); ?>"/>
     <div class="o-callToAction__card">
       <div class="m-ctaCard">
       <?php
@@ -39,7 +42,10 @@
 
         ?>
         <div class="m-ctaCard__row">
-          <img class="m-ctaCard__icon lazyload" src="<?php echo get_acf_image( get_sub_field('footer_call_to_action_call_out_link_icon', 'option'), '2560w', 'http://via.placeholder.com/64x64?text=icon'); ?>" />
+          <img 
+            class="m-ctaCard__icon lazyload" 
+            src="<?php echo get_acf_image(get_sub_field('footer_call_to_action_call_out_link_icon', 'option'), 'preload', 'http://via.placeholder.com/64x64?text=icon');?>"
+            srcset="<?php echo get_acf_image_srcset(get_sub_field('footer_call_to_action_call_out_link_icon', 'option')); ?>" />
           <div class="m-ctaCard__button">
             <a class="a-dividedIcon" href="<?php the_sub_field('footer_call_to_action_call_out_link_link', 'option'); ?>">
               <span class="a-dividedIcon__text"><?php the_sub_field('footer_call_to_action_call_out_link_title', 'option'); ?></span>
