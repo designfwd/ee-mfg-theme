@@ -89,8 +89,11 @@
   position: relative;
 
   &:last-child {
-    left: auto;
-    right: 0;
+
+    ul {
+      left: auto;
+      right: 0;
+    }
   }
 
   &:hover {

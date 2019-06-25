@@ -26,9 +26,15 @@
       width: 75%;
     }
 
+    @media(max-width: 700px) {
+      bottom: 0px;
+      background: linear-gradient(135deg,rgba(0,0,152,.5),rgba(0,0,0,.6));
+      height: 100%;
+      width: 100%;
+    }
+
     @media(max-width: 600px) {
       background: #010066;
-      bottom: 0px;
       flex: 0 1 100%;
       right: 0px;
       order: 2;

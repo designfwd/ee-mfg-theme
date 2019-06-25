@@ -33,6 +33,11 @@
         right: 0;
         top: 0;
         width: 5%;
+
+        @media (max-width: 780px) {
+          height: 1rem;
+          width: 1rem;
+        }
       }
     }
 

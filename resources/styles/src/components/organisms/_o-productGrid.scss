@@ -26,10 +26,10 @@
   flex-direction: row;
   flex-wrap: wrap;
   padding-top: 0;
-  justify-content: center;
+  justify-content: space-around;
 
   .o-productGrid__block {
-    flex: 0 1 33.33%;
+    flex: 0 1 32.33%;
     line-height: 0px;
     overflow: hidden;
     position: relative;

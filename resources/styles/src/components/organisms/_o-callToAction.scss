@@ -6,12 +6,15 @@
   .o-callToAction__titleRight {
     margin: 1rem .5rem 0rem;
     position: absolute;
-    width: 1rem;
+    width: 1.5rem;
   }
 
-  // .o-callToAction__titleLeft {}
+  .o-callToAction__titleLeft {
+    padding-left: .5rem;
+  }
 
   .o-callToAction__titleRight {
+    padding-right: .5rem;
     right: 0px;
   }
 
@@ -40,10 +43,12 @@
     @media(max-width: 500px) {
       font-size: 1.8rem;
       line-height: 2rem;
+      padding: 1rem 0;
     }
 
     p {
       margin: 0px;
+      padding: 0 .5rem;
     }
 
     span {
@@ -90,7 +95,9 @@
 
       @media(max-width: 600px) {
         left: auto;
+        margin-bottom: .5rem;
         position: relative;
+        top: 0;
         width: 95%;
       }
     }
