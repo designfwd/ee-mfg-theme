@@ -26,7 +26,12 @@
       })(document);
     </script>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+  <?php
+    endif;
+  ?>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142707823-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -35,10 +40,6 @@
 
   gtag('config', 'UA-142707823-1');
 </script>
-
-  <?php
-    endif;
-  ?>
   <?php // WordPress head() function
     wp_head();
   ?>
