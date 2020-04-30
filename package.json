@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "dialog-polyfill": "^0.4.10",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "jquery.mmenu": "^7.1.0",
     "lazysizes": "^4.1.2",
     "slick-carousel": "^1.8.1",
