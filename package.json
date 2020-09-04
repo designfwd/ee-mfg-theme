@@ -53,7 +53,7 @@
     "file-loader": "^2.0.0",
     "image-webpack-loader": "^4.3.1",
     "mini-css-extract-plugin": "^0.4.3",
-    "node-sass": "^4.9.3",
+    "node-sass": "^4.13.1",
     "node-sass-magic-importer": "^5.2.0",
     "normalize-scss": "^7.0.1",
     "postcss-dialog-polyfill": "^1.0.0",
